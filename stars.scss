@@ -1,0 +1,47 @@
+$shooting-star: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 90%);
+
+.stars{
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    overflow: hidden;
+    .star{
+        width: 1px;
+        height: 1px;
+        background-color: white;
+        position: absolute;
+        @for $i from 1 through 300{
+            &-#{$i}{
+                top: (random(100))+vh;
+                left: (random(100))+vw;
+                animation: twinkle (4000 + random(1000))+ms ease-in-out random(5000)+ms infinite backwards;
+            }
+        }
+    }
+    .shooting-star{            
+        width: 75px;
+        height: 4px;
+        border-radius: 2px;
+        position: absolute;
+        background: $shooting-star;
+        left: -120px;
+        @for $i from 1 through 9{
+            &-#{$i}{
+                top: (random(15) * 10 + $i * 10)+px;                    
+                animation: shoot-#{$i} 10s ease-in random(20000)+ms infinite backwards;
+            }
+            @at-root{
+                @keyframes shoot-#{$i} {
+                    $random: (random(10)*.1);
+                    from{transform: rotate(21deg) translate(0, -80px) scale($random - .2);}
+                    10%, 100%{transform: rotate(21deg) translate(130vw, -80px) scale($random);}
+                }
+            }
+        }
+    }
+}
+
+@keyframes twinkle {
+    0%, 100%{opacity: 0;}
+    50%{opacity: 1;}
+}

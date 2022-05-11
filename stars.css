@@ -1,0 +1,1639 @@
+.stars {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+}
+.stars .star {
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+}
+.stars .star-1 {
+  top: 12vh;
+  left: 73vw;
+  animation: twinkle 4200ms ease-in-out 2547ms infinite backwards;
+}
+.stars .star-2 {
+  top: 32vh;
+  left: 73vw;
+  animation: twinkle 4240ms ease-in-out 3440ms infinite backwards;
+}
+.stars .star-3 {
+  top: 63vh;
+  left: 2vw;
+  animation: twinkle 4306ms ease-in-out 1096ms infinite backwards;
+}
+.stars .star-4 {
+  top: 30vh;
+  left: 1vw;
+  animation: twinkle 4027ms ease-in-out 1706ms infinite backwards;
+}
+.stars .star-5 {
+  top: 84vh;
+  left: 83vw;
+  animation: twinkle 4440ms ease-in-out 4376ms infinite backwards;
+}
+.stars .star-6 {
+  top: 84vh;
+  left: 54vw;
+  animation: twinkle 4504ms ease-in-out 2482ms infinite backwards;
+}
+.stars .star-7 {
+  top: 84vh;
+  left: 56vw;
+  animation: twinkle 4486ms ease-in-out 3587ms infinite backwards;
+}
+.stars .star-8 {
+  top: 13vh;
+  left: 39vw;
+  animation: twinkle 4261ms ease-in-out 2495ms infinite backwards;
+}
+.stars .star-9 {
+  top: 13vh;
+  left: 52vw;
+  animation: twinkle 4955ms ease-in-out 979ms infinite backwards;
+}
+.stars .star-10 {
+  top: 69vh;
+  left: 57vw;
+  animation: twinkle 4546ms ease-in-out 178ms infinite backwards;
+}
+.stars .star-11 {
+  top: 89vh;
+  left: 27vw;
+  animation: twinkle 4533ms ease-in-out 3497ms infinite backwards;
+}
+.stars .star-12 {
+  top: 64vh;
+  left: 91vw;
+  animation: twinkle 4636ms ease-in-out 3492ms infinite backwards;
+}
+.stars .star-13 {
+  top: 10vh;
+  left: 13vw;
+  animation: twinkle 4032ms ease-in-out 3707ms infinite backwards;
+}
+.stars .star-14 {
+  top: 93vh;
+  left: 89vw;
+  animation: twinkle 4738ms ease-in-out 1712ms infinite backwards;
+}
+.stars .star-15 {
+  top: 26vh;
+  left: 81vw;
+  animation: twinkle 4385ms ease-in-out 4415ms infinite backwards;
+}
+.stars .star-16 {
+  top: 1vh;
+  left: 7vw;
+  animation: twinkle 4742ms ease-in-out 3350ms infinite backwards;
+}
+.stars .star-17 {
+  top: 69vh;
+  left: 1vw;
+  animation: twinkle 4974ms ease-in-out 4097ms infinite backwards;
+}
+.stars .star-18 {
+  top: 44vh;
+  left: 5vw;
+  animation: twinkle 4918ms ease-in-out 384ms infinite backwards;
+}
+.stars .star-19 {
+  top: 29vh;
+  left: 68vw;
+  animation: twinkle 4007ms ease-in-out 2734ms infinite backwards;
+}
+.stars .star-20 {
+  top: 97vh;
+  left: 28vw;
+  animation: twinkle 4869ms ease-in-out 4062ms infinite backwards;
+}
+.stars .star-21 {
+  top: 51vh;
+  left: 46vw;
+  animation: twinkle 4066ms ease-in-out 1716ms infinite backwards;
+}
+.stars .star-22 {
+  top: 13vh;
+  left: 97vw;
+  animation: twinkle 4587ms ease-in-out 1660ms infinite backwards;
+}
+.stars .star-23 {
+  top: 22vh;
+  left: 71vw;
+  animation: twinkle 4537ms ease-in-out 1458ms infinite backwards;
+}
+.stars .star-24 {
+  top: 11vh;
+  left: 35vw;
+  animation: twinkle 4345ms ease-in-out 2138ms infinite backwards;
+}
+.stars .star-25 {
+  top: 66vh;
+  left: 23vw;
+  animation: twinkle 4840ms ease-in-out 3555ms infinite backwards;
+}
+.stars .star-26 {
+  top: 73vh;
+  left: 27vw;
+  animation: twinkle 4739ms ease-in-out 167ms infinite backwards;
+}
+.stars .star-27 {
+  top: 32vh;
+  left: 90vw;
+  animation: twinkle 4955ms ease-in-out 4256ms infinite backwards;
+}
+.stars .star-28 {
+  top: 50vh;
+  left: 62vw;
+  animation: twinkle 4403ms ease-in-out 475ms infinite backwards;
+}
+.stars .star-29 {
+  top: 6vh;
+  left: 37vw;
+  animation: twinkle 4570ms ease-in-out 3566ms infinite backwards;
+}
+.stars .star-30 {
+  top: 27vh;
+  left: 93vw;
+  animation: twinkle 4098ms ease-in-out 2829ms infinite backwards;
+}
+.stars .star-31 {
+  top: 75vh;
+  left: 1vw;
+  animation: twinkle 4567ms ease-in-out 3172ms infinite backwards;
+}
+.stars .star-32 {
+  top: 49vh;
+  left: 67vw;
+  animation: twinkle 4546ms ease-in-out 3778ms infinite backwards;
+}
+.stars .star-33 {
+  top: 60vh;
+  left: 59vw;
+  animation: twinkle 4504ms ease-in-out 638ms infinite backwards;
+}
+.stars .star-34 {
+  top: 90vh;
+  left: 90vw;
+  animation: twinkle 4359ms ease-in-out 1776ms infinite backwards;
+}
+.stars .star-35 {
+  top: 17vh;
+  left: 81vw;
+  animation: twinkle 4506ms ease-in-out 4627ms infinite backwards;
+}
+.stars .star-36 {
+  top: 72vh;
+  left: 63vw;
+  animation: twinkle 4914ms ease-in-out 4718ms infinite backwards;
+}
+.stars .star-37 {
+  top: 57vh;
+  left: 88vw;
+  animation: twinkle 4501ms ease-in-out 1726ms infinite backwards;
+}
+.stars .star-38 {
+  top: 67vh;
+  left: 5vw;
+  animation: twinkle 4321ms ease-in-out 1218ms infinite backwards;
+}
+.stars .star-39 {
+  top: 96vh;
+  left: 18vw;
+  animation: twinkle 4712ms ease-in-out 2752ms infinite backwards;
+}
+.stars .star-40 {
+  top: 18vh;
+  left: 66vw;
+  animation: twinkle 4841ms ease-in-out 868ms infinite backwards;
+}
+.stars .star-41 {
+  top: 15vh;
+  left: 53vw;
+  animation: twinkle 4715ms ease-in-out 4761ms infinite backwards;
+}
+.stars .star-42 {
+  top: 30vh;
+  left: 8vw;
+  animation: twinkle 4778ms ease-in-out 674ms infinite backwards;
+}
+.stars .star-43 {
+  top: 77vh;
+  left: 77vw;
+  animation: twinkle 4932ms ease-in-out 2751ms infinite backwards;
+}
+.stars .star-44 {
+  top: 60vh;
+  left: 56vw;
+  animation: twinkle 4572ms ease-in-out 965ms infinite backwards;
+}
+.stars .star-45 {
+  top: 56vh;
+  left: 85vw;
+  animation: twinkle 4101ms ease-in-out 2311ms infinite backwards;
+}
+.stars .star-46 {
+  top: 9vh;
+  left: 72vw;
+  animation: twinkle 4633ms ease-in-out 4374ms infinite backwards;
+}
+.stars .star-47 {
+  top: 39vh;
+  left: 11vw;
+  animation: twinkle 4820ms ease-in-out 1867ms infinite backwards;
+}
+.stars .star-48 {
+  top: 72vh;
+  left: 91vw;
+  animation: twinkle 4066ms ease-in-out 4229ms infinite backwards;
+}
+.stars .star-49 {
+  top: 23vh;
+  left: 46vw;
+  animation: twinkle 4522ms ease-in-out 3850ms infinite backwards;
+}
+.stars .star-50 {
+  top: 94vh;
+  left: 12vw;
+  animation: twinkle 4366ms ease-in-out 3172ms infinite backwards;
+}
+.stars .star-51 {
+  top: 10vh;
+  left: 32vw;
+  animation: twinkle 4490ms ease-in-out 2606ms infinite backwards;
+}
+.stars .star-52 {
+  top: 90vh;
+  left: 97vw;
+  animation: twinkle 4570ms ease-in-out 3481ms infinite backwards;
+}
+.stars .star-53 {
+  top: 99vh;
+  left: 85vw;
+  animation: twinkle 4058ms ease-in-out 2769ms infinite backwards;
+}
+.stars .star-54 {
+  top: 38vh;
+  left: 32vw;
+  animation: twinkle 4703ms ease-in-out 4598ms infinite backwards;
+}
+.stars .star-55 {
+  top: 62vh;
+  left: 24vw;
+  animation: twinkle 4250ms ease-in-out 2349ms infinite backwards;
+}
+.stars .star-56 {
+  top: 67vh;
+  left: 63vw;
+  animation: twinkle 4944ms ease-in-out 1671ms infinite backwards;
+}
+.stars .star-57 {
+  top: 38vh;
+  left: 84vw;
+  animation: twinkle 4142ms ease-in-out 2787ms infinite backwards;
+}
+.stars .star-58 {
+  top: 1vh;
+  left: 3vw;
+  animation: twinkle 4551ms ease-in-out 3620ms infinite backwards;
+}
+.stars .star-59 {
+  top: 1vh;
+  left: 5vw;
+  animation: twinkle 4474ms ease-in-out 3594ms infinite backwards;
+}
+.stars .star-60 {
+  top: 30vh;
+  left: 81vw;
+  animation: twinkle 4047ms ease-in-out 3339ms infinite backwards;
+}
+.stars .star-61 {
+  top: 13vh;
+  left: 29vw;
+  animation: twinkle 4838ms ease-in-out 1717ms infinite backwards;
+}
+.stars .star-62 {
+  top: 6vh;
+  left: 43vw;
+  animation: twinkle 4760ms ease-in-out 3090ms infinite backwards;
+}
+.stars .star-63 {
+  top: 71vh;
+  left: 26vw;
+  animation: twinkle 4666ms ease-in-out 4397ms infinite backwards;
+}
+.stars .star-64 {
+  top: 32vh;
+  left: 99vw;
+  animation: twinkle 4698ms ease-in-out 3542ms infinite backwards;
+}
+.stars .star-65 {
+  top: 40vh;
+  left: 9vw;
+  animation: twinkle 4167ms ease-in-out 4578ms infinite backwards;
+}
+.stars .star-66 {
+  top: 7vh;
+  left: 18vw;
+  animation: twinkle 4826ms ease-in-out 1988ms infinite backwards;
+}
+.stars .star-67 {
+  top: 32vh;
+  left: 21vw;
+  animation: twinkle 4691ms ease-in-out 1812ms infinite backwards;
+}
+.stars .star-68 {
+  top: 97vh;
+  left: 95vw;
+  animation: twinkle 4396ms ease-in-out 463ms infinite backwards;
+}
+.stars .star-69 {
+  top: 95vh;
+  left: 74vw;
+  animation: twinkle 4444ms ease-in-out 4474ms infinite backwards;
+}
+.stars .star-70 {
+  top: 25vh;
+  left: 82vw;
+  animation: twinkle 4142ms ease-in-out 3592ms infinite backwards;
+}
+.stars .star-71 {
+  top: 57vh;
+  left: 23vw;
+  animation: twinkle 4353ms ease-in-out 3257ms infinite backwards;
+}
+.stars .star-72 {
+  top: 44vh;
+  left: 35vw;
+  animation: twinkle 4399ms ease-in-out 3453ms infinite backwards;
+}
+.stars .star-73 {
+  top: 13vh;
+  left: 52vw;
+  animation: twinkle 4735ms ease-in-out 23ms infinite backwards;
+}
+.stars .star-74 {
+  top: 88vh;
+  left: 79vw;
+  animation: twinkle 4127ms ease-in-out 4816ms infinite backwards;
+}
+.stars .star-75 {
+  top: 5vh;
+  left: 22vw;
+  animation: twinkle 4970ms ease-in-out 142ms infinite backwards;
+}
+.stars .star-76 {
+  top: 47vh;
+  left: 97vw;
+  animation: twinkle 4962ms ease-in-out 548ms infinite backwards;
+}
+.stars .star-77 {
+  top: 100vh;
+  left: 61vw;
+  animation: twinkle 4472ms ease-in-out 433ms infinite backwards;
+}
+.stars .star-78 {
+  top: 77vh;
+  left: 79vw;
+  animation: twinkle 4189ms ease-in-out 819ms infinite backwards;
+}
+.stars .star-79 {
+  top: 89vh;
+  left: 62vw;
+  animation: twinkle 4323ms ease-in-out 2521ms infinite backwards;
+}
+.stars .star-80 {
+  top: 92vh;
+  left: 29vw;
+  animation: twinkle 4623ms ease-in-out 4697ms infinite backwards;
+}
+.stars .star-81 {
+  top: 17vh;
+  left: 100vw;
+  animation: twinkle 4879ms ease-in-out 1793ms infinite backwards;
+}
+.stars .star-82 {
+  top: 6vh;
+  left: 12vw;
+  animation: twinkle 4228ms ease-in-out 3802ms infinite backwards;
+}
+.stars .star-83 {
+  top: 58vh;
+  left: 18vw;
+  animation: twinkle 4257ms ease-in-out 4473ms infinite backwards;
+}
+.stars .star-84 {
+  top: 91vh;
+  left: 51vw;
+  animation: twinkle 4949ms ease-in-out 1725ms infinite backwards;
+}
+.stars .star-85 {
+  top: 88vh;
+  left: 24vw;
+  animation: twinkle 4922ms ease-in-out 1383ms infinite backwards;
+}
+.stars .star-86 {
+  top: 92vh;
+  left: 57vw;
+  animation: twinkle 4012ms ease-in-out 3281ms infinite backwards;
+}
+.stars .star-87 {
+  top: 53vh;
+  left: 48vw;
+  animation: twinkle 4642ms ease-in-out 1103ms infinite backwards;
+}
+.stars .star-88 {
+  top: 38vh;
+  left: 45vw;
+  animation: twinkle 4028ms ease-in-out 1591ms infinite backwards;
+}
+.stars .star-89 {
+  top: 17vh;
+  left: 78vw;
+  animation: twinkle 4090ms ease-in-out 3801ms infinite backwards;
+}
+.stars .star-90 {
+  top: 75vh;
+  left: 49vw;
+  animation: twinkle 4533ms ease-in-out 830ms infinite backwards;
+}
+.stars .star-91 {
+  top: 30vh;
+  left: 86vw;
+  animation: twinkle 4181ms ease-in-out 4621ms infinite backwards;
+}
+.stars .star-92 {
+  top: 69vh;
+  left: 35vw;
+  animation: twinkle 4882ms ease-in-out 844ms infinite backwards;
+}
+.stars .star-93 {
+  top: 4vh;
+  left: 87vw;
+  animation: twinkle 4473ms ease-in-out 3395ms infinite backwards;
+}
+.stars .star-94 {
+  top: 54vh;
+  left: 64vw;
+  animation: twinkle 4004ms ease-in-out 2882ms infinite backwards;
+}
+.stars .star-95 {
+  top: 75vh;
+  left: 28vw;
+  animation: twinkle 4615ms ease-in-out 293ms infinite backwards;
+}
+.stars .star-96 {
+  top: 2vh;
+  left: 44vw;
+  animation: twinkle 4564ms ease-in-out 2325ms infinite backwards;
+}
+.stars .star-97 {
+  top: 88vh;
+  left: 20vw;
+  animation: twinkle 4421ms ease-in-out 710ms infinite backwards;
+}
+.stars .star-98 {
+  top: 98vh;
+  left: 35vw;
+  animation: twinkle 4592ms ease-in-out 1922ms infinite backwards;
+}
+.stars .star-99 {
+  top: 60vh;
+  left: 62vw;
+  animation: twinkle 4624ms ease-in-out 3374ms infinite backwards;
+}
+.stars .star-100 {
+  top: 53vh;
+  left: 8vw;
+  animation: twinkle 4894ms ease-in-out 1628ms infinite backwards;
+}
+.stars .star-101 {
+  top: 83vh;
+  left: 5vw;
+  animation: twinkle 4752ms ease-in-out 595ms infinite backwards;
+}
+.stars .star-102 {
+  top: 35vh;
+  left: 89vw;
+  animation: twinkle 4800ms ease-in-out 914ms infinite backwards;
+}
+.stars .star-103 {
+  top: 26vh;
+  left: 6vw;
+  animation: twinkle 4668ms ease-in-out 776ms infinite backwards;
+}
+.stars .star-104 {
+  top: 93vh;
+  left: 70vw;
+  animation: twinkle 4343ms ease-in-out 873ms infinite backwards;
+}
+.stars .star-105 {
+  top: 76vh;
+  left: 76vw;
+  animation: twinkle 4918ms ease-in-out 3033ms infinite backwards;
+}
+.stars .star-106 {
+  top: 89vh;
+  left: 57vw;
+  animation: twinkle 4858ms ease-in-out 323ms infinite backwards;
+}
+.stars .star-107 {
+  top: 48vh;
+  left: 71vw;
+  animation: twinkle 4174ms ease-in-out 1018ms infinite backwards;
+}
+.stars .star-108 {
+  top: 76vh;
+  left: 3vw;
+  animation: twinkle 4246ms ease-in-out 3830ms infinite backwards;
+}
+.stars .star-109 {
+  top: 2vh;
+  left: 76vw;
+  animation: twinkle 4840ms ease-in-out 2850ms infinite backwards;
+}
+.stars .star-110 {
+  top: 84vh;
+  left: 5vw;
+  animation: twinkle 4179ms ease-in-out 2910ms infinite backwards;
+}
+.stars .star-111 {
+  top: 32vh;
+  left: 87vw;
+  animation: twinkle 4902ms ease-in-out 2291ms infinite backwards;
+}
+.stars .star-112 {
+  top: 20vh;
+  left: 89vw;
+  animation: twinkle 4763ms ease-in-out 115ms infinite backwards;
+}
+.stars .star-113 {
+  top: 83vh;
+  left: 68vw;
+  animation: twinkle 4448ms ease-in-out 4841ms infinite backwards;
+}
+.stars .star-114 {
+  top: 34vh;
+  left: 74vw;
+  animation: twinkle 4613ms ease-in-out 4791ms infinite backwards;
+}
+.stars .star-115 {
+  top: 32vh;
+  left: 64vw;
+  animation: twinkle 4130ms ease-in-out 866ms infinite backwards;
+}
+.stars .star-116 {
+  top: 83vh;
+  left: 76vw;
+  animation: twinkle 4032ms ease-in-out 622ms infinite backwards;
+}
+.stars .star-117 {
+  top: 79vh;
+  left: 37vw;
+  animation: twinkle 4355ms ease-in-out 470ms infinite backwards;
+}
+.stars .star-118 {
+  top: 18vh;
+  left: 7vw;
+  animation: twinkle 4676ms ease-in-out 4949ms infinite backwards;
+}
+.stars .star-119 {
+  top: 69vh;
+  left: 31vw;
+  animation: twinkle 4492ms ease-in-out 1564ms infinite backwards;
+}
+.stars .star-120 {
+  top: 29vh;
+  left: 50vw;
+  animation: twinkle 4204ms ease-in-out 277ms infinite backwards;
+}
+.stars .star-121 {
+  top: 21vh;
+  left: 97vw;
+  animation: twinkle 4062ms ease-in-out 3508ms infinite backwards;
+}
+.stars .star-122 {
+  top: 35vh;
+  left: 67vw;
+  animation: twinkle 4594ms ease-in-out 2487ms infinite backwards;
+}
+.stars .star-123 {
+  top: 27vh;
+  left: 76vw;
+  animation: twinkle 4065ms ease-in-out 2938ms infinite backwards;
+}
+.stars .star-124 {
+  top: 59vh;
+  left: 46vw;
+  animation: twinkle 4105ms ease-in-out 4604ms infinite backwards;
+}
+.stars .star-125 {
+  top: 16vh;
+  left: 47vw;
+  animation: twinkle 4413ms ease-in-out 4240ms infinite backwards;
+}
+.stars .star-126 {
+  top: 19vh;
+  left: 63vw;
+  animation: twinkle 4905ms ease-in-out 4706ms infinite backwards;
+}
+.stars .star-127 {
+  top: 58vh;
+  left: 39vw;
+  animation: twinkle 4364ms ease-in-out 1538ms infinite backwards;
+}
+.stars .star-128 {
+  top: 6vh;
+  left: 20vw;
+  animation: twinkle 4833ms ease-in-out 1209ms infinite backwards;
+}
+.stars .star-129 {
+  top: 100vh;
+  left: 52vw;
+  animation: twinkle 4132ms ease-in-out 2932ms infinite backwards;
+}
+.stars .star-130 {
+  top: 35vh;
+  left: 29vw;
+  animation: twinkle 4561ms ease-in-out 3118ms infinite backwards;
+}
+.stars .star-131 {
+  top: 1vh;
+  left: 71vw;
+  animation: twinkle 4731ms ease-in-out 341ms infinite backwards;
+}
+.stars .star-132 {
+  top: 35vh;
+  left: 68vw;
+  animation: twinkle 4618ms ease-in-out 4856ms infinite backwards;
+}
+.stars .star-133 {
+  top: 28vh;
+  left: 78vw;
+  animation: twinkle 4758ms ease-in-out 4072ms infinite backwards;
+}
+.stars .star-134 {
+  top: 21vh;
+  left: 11vw;
+  animation: twinkle 4555ms ease-in-out 787ms infinite backwards;
+}
+.stars .star-135 {
+  top: 48vh;
+  left: 97vw;
+  animation: twinkle 4830ms ease-in-out 787ms infinite backwards;
+}
+.stars .star-136 {
+  top: 48vh;
+  left: 34vw;
+  animation: twinkle 4130ms ease-in-out 2867ms infinite backwards;
+}
+.stars .star-137 {
+  top: 38vh;
+  left: 66vw;
+  animation: twinkle 4104ms ease-in-out 3624ms infinite backwards;
+}
+.stars .star-138 {
+  top: 71vh;
+  left: 89vw;
+  animation: twinkle 4090ms ease-in-out 4642ms infinite backwards;
+}
+.stars .star-139 {
+  top: 67vh;
+  left: 10vw;
+  animation: twinkle 4900ms ease-in-out 4501ms infinite backwards;
+}
+.stars .star-140 {
+  top: 45vh;
+  left: 2vw;
+  animation: twinkle 4075ms ease-in-out 2738ms infinite backwards;
+}
+.stars .star-141 {
+  top: 71vh;
+  left: 18vw;
+  animation: twinkle 4677ms ease-in-out 2602ms infinite backwards;
+}
+.stars .star-142 {
+  top: 6vh;
+  left: 83vw;
+  animation: twinkle 4665ms ease-in-out 4150ms infinite backwards;
+}
+.stars .star-143 {
+  top: 42vh;
+  left: 62vw;
+  animation: twinkle 4796ms ease-in-out 248ms infinite backwards;
+}
+.stars .star-144 {
+  top: 26vh;
+  left: 7vw;
+  animation: twinkle 4863ms ease-in-out 3457ms infinite backwards;
+}
+.stars .star-145 {
+  top: 56vh;
+  left: 21vw;
+  animation: twinkle 4896ms ease-in-out 970ms infinite backwards;
+}
+.stars .star-146 {
+  top: 39vh;
+  left: 56vw;
+  animation: twinkle 4891ms ease-in-out 3925ms infinite backwards;
+}
+.stars .star-147 {
+  top: 51vh;
+  left: 62vw;
+  animation: twinkle 4091ms ease-in-out 4759ms infinite backwards;
+}
+.stars .star-148 {
+  top: 50vh;
+  left: 45vw;
+  animation: twinkle 4127ms ease-in-out 2203ms infinite backwards;
+}
+.stars .star-149 {
+  top: 93vh;
+  left: 43vw;
+  animation: twinkle 4208ms ease-in-out 3524ms infinite backwards;
+}
+.stars .star-150 {
+  top: 34vh;
+  left: 19vw;
+  animation: twinkle 4808ms ease-in-out 201ms infinite backwards;
+}
+.stars .star-151 {
+  top: 28vh;
+  left: 7vw;
+  animation: twinkle 4950ms ease-in-out 4456ms infinite backwards;
+}
+.stars .star-152 {
+  top: 25vh;
+  left: 59vw;
+  animation: twinkle 4609ms ease-in-out 3183ms infinite backwards;
+}
+.stars .star-153 {
+  top: 26vh;
+  left: 9vw;
+  animation: twinkle 4353ms ease-in-out 1786ms infinite backwards;
+}
+.stars .star-154 {
+  top: 90vh;
+  left: 45vw;
+  animation: twinkle 4278ms ease-in-out 2702ms infinite backwards;
+}
+.stars .star-155 {
+  top: 31vh;
+  left: 38vw;
+  animation: twinkle 4095ms ease-in-out 2218ms infinite backwards;
+}
+.stars .star-156 {
+  top: 26vh;
+  left: 79vw;
+  animation: twinkle 4065ms ease-in-out 3263ms infinite backwards;
+}
+.stars .star-157 {
+  top: 81vh;
+  left: 17vw;
+  animation: twinkle 4734ms ease-in-out 1272ms infinite backwards;
+}
+.stars .star-158 {
+  top: 26vh;
+  left: 3vw;
+  animation: twinkle 4945ms ease-in-out 1092ms infinite backwards;
+}
+.stars .star-159 {
+  top: 53vh;
+  left: 30vw;
+  animation: twinkle 4859ms ease-in-out 1773ms infinite backwards;
+}
+.stars .star-160 {
+  top: 76vh;
+  left: 92vw;
+  animation: twinkle 4649ms ease-in-out 656ms infinite backwards;
+}
+.stars .star-161 {
+  top: 33vh;
+  left: 87vw;
+  animation: twinkle 4459ms ease-in-out 1462ms infinite backwards;
+}
+.stars .star-162 {
+  top: 84vh;
+  left: 21vw;
+  animation: twinkle 4772ms ease-in-out 2951ms infinite backwards;
+}
+.stars .star-163 {
+  top: 26vh;
+  left: 66vw;
+  animation: twinkle 4631ms ease-in-out 3106ms infinite backwards;
+}
+.stars .star-164 {
+  top: 47vh;
+  left: 75vw;
+  animation: twinkle 4032ms ease-in-out 4881ms infinite backwards;
+}
+.stars .star-165 {
+  top: 25vh;
+  left: 53vw;
+  animation: twinkle 4536ms ease-in-out 262ms infinite backwards;
+}
+.stars .star-166 {
+  top: 10vh;
+  left: 77vw;
+  animation: twinkle 4330ms ease-in-out 2963ms infinite backwards;
+}
+.stars .star-167 {
+  top: 53vh;
+  left: 100vw;
+  animation: twinkle 4064ms ease-in-out 2504ms infinite backwards;
+}
+.stars .star-168 {
+  top: 26vh;
+  left: 39vw;
+  animation: twinkle 4754ms ease-in-out 1831ms infinite backwards;
+}
+.stars .star-169 {
+  top: 37vh;
+  left: 37vw;
+  animation: twinkle 4899ms ease-in-out 3311ms infinite backwards;
+}
+.stars .star-170 {
+  top: 58vh;
+  left: 89vw;
+  animation: twinkle 4525ms ease-in-out 4910ms infinite backwards;
+}
+.stars .star-171 {
+  top: 95vh;
+  left: 26vw;
+  animation: twinkle 4251ms ease-in-out 1664ms infinite backwards;
+}
+.stars .star-172 {
+  top: 49vh;
+  left: 44vw;
+  animation: twinkle 4925ms ease-in-out 3152ms infinite backwards;
+}
+.stars .star-173 {
+  top: 42vh;
+  left: 82vw;
+  animation: twinkle 4127ms ease-in-out 1188ms infinite backwards;
+}
+.stars .star-174 {
+  top: 29vh;
+  left: 77vw;
+  animation: twinkle 4011ms ease-in-out 2020ms infinite backwards;
+}
+.stars .star-175 {
+  top: 91vh;
+  left: 48vw;
+  animation: twinkle 4900ms ease-in-out 1735ms infinite backwards;
+}
+.stars .star-176 {
+  top: 68vh;
+  left: 66vw;
+  animation: twinkle 4050ms ease-in-out 3874ms infinite backwards;
+}
+.stars .star-177 {
+  top: 40vh;
+  left: 19vw;
+  animation: twinkle 4308ms ease-in-out 2237ms infinite backwards;
+}
+.stars .star-178 {
+  top: 23vh;
+  left: 47vw;
+  animation: twinkle 4866ms ease-in-out 1365ms infinite backwards;
+}
+.stars .star-179 {
+  top: 71vh;
+  left: 27vw;
+  animation: twinkle 4838ms ease-in-out 2650ms infinite backwards;
+}
+.stars .star-180 {
+  top: 57vh;
+  left: 97vw;
+  animation: twinkle 4012ms ease-in-out 4402ms infinite backwards;
+}
+.stars .star-181 {
+  top: 78vh;
+  left: 22vw;
+  animation: twinkle 4776ms ease-in-out 4049ms infinite backwards;
+}
+.stars .star-182 {
+  top: 91vh;
+  left: 91vw;
+  animation: twinkle 4589ms ease-in-out 3349ms infinite backwards;
+}
+.stars .star-183 {
+  top: 70vh;
+  left: 59vw;
+  animation: twinkle 4861ms ease-in-out 2961ms infinite backwards;
+}
+.stars .star-184 {
+  top: 59vh;
+  left: 30vw;
+  animation: twinkle 4263ms ease-in-out 3059ms infinite backwards;
+}
+.stars .star-185 {
+  top: 73vh;
+  left: 81vw;
+  animation: twinkle 4764ms ease-in-out 3275ms infinite backwards;
+}
+.stars .star-186 {
+  top: 3vh;
+  left: 77vw;
+  animation: twinkle 4908ms ease-in-out 2244ms infinite backwards;
+}
+.stars .star-187 {
+  top: 78vh;
+  left: 60vw;
+  animation: twinkle 4201ms ease-in-out 4225ms infinite backwards;
+}
+.stars .star-188 {
+  top: 75vh;
+  left: 20vw;
+  animation: twinkle 4455ms ease-in-out 1908ms infinite backwards;
+}
+.stars .star-189 {
+  top: 1vh;
+  left: 42vw;
+  animation: twinkle 4295ms ease-in-out 4992ms infinite backwards;
+}
+.stars .star-190 {
+  top: 72vh;
+  left: 79vw;
+  animation: twinkle 4706ms ease-in-out 1106ms infinite backwards;
+}
+.stars .star-191 {
+  top: 98vh;
+  left: 92vw;
+  animation: twinkle 4857ms ease-in-out 999ms infinite backwards;
+}
+.stars .star-192 {
+  top: 33vh;
+  left: 35vw;
+  animation: twinkle 4067ms ease-in-out 3189ms infinite backwards;
+}
+.stars .star-193 {
+  top: 7vh;
+  left: 52vw;
+  animation: twinkle 4665ms ease-in-out 2453ms infinite backwards;
+}
+.stars .star-194 {
+  top: 31vh;
+  left: 59vw;
+  animation: twinkle 4960ms ease-in-out 2793ms infinite backwards;
+}
+.stars .star-195 {
+  top: 30vh;
+  left: 11vw;
+  animation: twinkle 4998ms ease-in-out 3010ms infinite backwards;
+}
+.stars .star-196 {
+  top: 60vh;
+  left: 16vw;
+  animation: twinkle 4541ms ease-in-out 875ms infinite backwards;
+}
+.stars .star-197 {
+  top: 34vh;
+  left: 100vw;
+  animation: twinkle 4385ms ease-in-out 1800ms infinite backwards;
+}
+.stars .star-198 {
+  top: 95vh;
+  left: 50vw;
+  animation: twinkle 4673ms ease-in-out 3370ms infinite backwards;
+}
+.stars .star-199 {
+  top: 24vh;
+  left: 63vw;
+  animation: twinkle 4740ms ease-in-out 3033ms infinite backwards;
+}
+.stars .star-200 {
+  top: 97vh;
+  left: 92vw;
+  animation: twinkle 4397ms ease-in-out 402ms infinite backwards;
+}
+.stars .star-201 {
+  top: 37vh;
+  left: 53vw;
+  animation: twinkle 4104ms ease-in-out 387ms infinite backwards;
+}
+.stars .star-202 {
+  top: 93vh;
+  left: 40vw;
+  animation: twinkle 4667ms ease-in-out 3727ms infinite backwards;
+}
+.stars .star-203 {
+  top: 30vh;
+  left: 28vw;
+  animation: twinkle 4327ms ease-in-out 2108ms infinite backwards;
+}
+.stars .star-204 {
+  top: 98vh;
+  left: 30vw;
+  animation: twinkle 4154ms ease-in-out 4463ms infinite backwards;
+}
+.stars .star-205 {
+  top: 63vh;
+  left: 71vw;
+  animation: twinkle 4827ms ease-in-out 55ms infinite backwards;
+}
+.stars .star-206 {
+  top: 33vh;
+  left: 91vw;
+  animation: twinkle 4606ms ease-in-out 4104ms infinite backwards;
+}
+.stars .star-207 {
+  top: 87vh;
+  left: 58vw;
+  animation: twinkle 4110ms ease-in-out 3675ms infinite backwards;
+}
+.stars .star-208 {
+  top: 19vh;
+  left: 42vw;
+  animation: twinkle 4884ms ease-in-out 1957ms infinite backwards;
+}
+.stars .star-209 {
+  top: 7vh;
+  left: 3vw;
+  animation: twinkle 4880ms ease-in-out 581ms infinite backwards;
+}
+.stars .star-210 {
+  top: 79vh;
+  left: 4vw;
+  animation: twinkle 4049ms ease-in-out 2166ms infinite backwards;
+}
+.stars .star-211 {
+  top: 89vh;
+  left: 81vw;
+  animation: twinkle 4628ms ease-in-out 4552ms infinite backwards;
+}
+.stars .star-212 {
+  top: 75vh;
+  left: 73vw;
+  animation: twinkle 4948ms ease-in-out 3626ms infinite backwards;
+}
+.stars .star-213 {
+  top: 87vh;
+  left: 84vw;
+  animation: twinkle 4466ms ease-in-out 1433ms infinite backwards;
+}
+.stars .star-214 {
+  top: 98vh;
+  left: 78vw;
+  animation: twinkle 4262ms ease-in-out 4477ms infinite backwards;
+}
+.stars .star-215 {
+  top: 33vh;
+  left: 33vw;
+  animation: twinkle 4518ms ease-in-out 4863ms infinite backwards;
+}
+.stars .star-216 {
+  top: 87vh;
+  left: 91vw;
+  animation: twinkle 4994ms ease-in-out 4822ms infinite backwards;
+}
+.stars .star-217 {
+  top: 53vh;
+  left: 41vw;
+  animation: twinkle 4363ms ease-in-out 3405ms infinite backwards;
+}
+.stars .star-218 {
+  top: 12vh;
+  left: 72vw;
+  animation: twinkle 4417ms ease-in-out 4298ms infinite backwards;
+}
+.stars .star-219 {
+  top: 96vh;
+  left: 71vw;
+  animation: twinkle 4915ms ease-in-out 178ms infinite backwards;
+}
+.stars .star-220 {
+  top: 77vh;
+  left: 22vw;
+  animation: twinkle 4852ms ease-in-out 4850ms infinite backwards;
+}
+.stars .star-221 {
+  top: 28vh;
+  left: 32vw;
+  animation: twinkle 4815ms ease-in-out 3803ms infinite backwards;
+}
+.stars .star-222 {
+  top: 87vh;
+  left: 81vw;
+  animation: twinkle 4322ms ease-in-out 4816ms infinite backwards;
+}
+.stars .star-223 {
+  top: 9vh;
+  left: 28vw;
+  animation: twinkle 4437ms ease-in-out 3933ms infinite backwards;
+}
+.stars .star-224 {
+  top: 83vh;
+  left: 54vw;
+  animation: twinkle 4052ms ease-in-out 1529ms infinite backwards;
+}
+.stars .star-225 {
+  top: 22vh;
+  left: 74vw;
+  animation: twinkle 4836ms ease-in-out 4721ms infinite backwards;
+}
+.stars .star-226 {
+  top: 85vh;
+  left: 2vw;
+  animation: twinkle 4803ms ease-in-out 3964ms infinite backwards;
+}
+.stars .star-227 {
+  top: 87vh;
+  left: 32vw;
+  animation: twinkle 4901ms ease-in-out 1424ms infinite backwards;
+}
+.stars .star-228 {
+  top: 95vh;
+  left: 54vw;
+  animation: twinkle 4500ms ease-in-out 4386ms infinite backwards;
+}
+.stars .star-229 {
+  top: 80vh;
+  left: 52vw;
+  animation: twinkle 4877ms ease-in-out 448ms infinite backwards;
+}
+.stars .star-230 {
+  top: 25vh;
+  left: 19vw;
+  animation: twinkle 4423ms ease-in-out 1957ms infinite backwards;
+}
+.stars .star-231 {
+  top: 31vh;
+  left: 8vw;
+  animation: twinkle 4836ms ease-in-out 4467ms infinite backwards;
+}
+.stars .star-232 {
+  top: 36vh;
+  left: 57vw;
+  animation: twinkle 4974ms ease-in-out 1887ms infinite backwards;
+}
+.stars .star-233 {
+  top: 31vh;
+  left: 31vw;
+  animation: twinkle 4858ms ease-in-out 4077ms infinite backwards;
+}
+.stars .star-234 {
+  top: 32vh;
+  left: 30vw;
+  animation: twinkle 4817ms ease-in-out 3550ms infinite backwards;
+}
+.stars .star-235 {
+  top: 43vh;
+  left: 64vw;
+  animation: twinkle 4218ms ease-in-out 4890ms infinite backwards;
+}
+.stars .star-236 {
+  top: 56vh;
+  left: 62vw;
+  animation: twinkle 4824ms ease-in-out 4110ms infinite backwards;
+}
+.stars .star-237 {
+  top: 93vh;
+  left: 31vw;
+  animation: twinkle 4486ms ease-in-out 4559ms infinite backwards;
+}
+.stars .star-238 {
+  top: 1vh;
+  left: 91vw;
+  animation: twinkle 4609ms ease-in-out 552ms infinite backwards;
+}
+.stars .star-239 {
+  top: 60vh;
+  left: 100vw;
+  animation: twinkle 4939ms ease-in-out 4243ms infinite backwards;
+}
+.stars .star-240 {
+  top: 24vh;
+  left: 51vw;
+  animation: twinkle 4936ms ease-in-out 3067ms infinite backwards;
+}
+.stars .star-241 {
+  top: 50vh;
+  left: 87vw;
+  animation: twinkle 4733ms ease-in-out 280ms infinite backwards;
+}
+.stars .star-242 {
+  top: 6vh;
+  left: 12vw;
+  animation: twinkle 4252ms ease-in-out 754ms infinite backwards;
+}
+.stars .star-243 {
+  top: 70vh;
+  left: 32vw;
+  animation: twinkle 4686ms ease-in-out 4403ms infinite backwards;
+}
+.stars .star-244 {
+  top: 8vh;
+  left: 29vw;
+  animation: twinkle 4089ms ease-in-out 543ms infinite backwards;
+}
+.stars .star-245 {
+  top: 61vh;
+  left: 67vw;
+  animation: twinkle 4481ms ease-in-out 943ms infinite backwards;
+}
+.stars .star-246 {
+  top: 75vh;
+  left: 88vw;
+  animation: twinkle 4009ms ease-in-out 1934ms infinite backwards;
+}
+.stars .star-247 {
+  top: 67vh;
+  left: 9vw;
+  animation: twinkle 4087ms ease-in-out 4516ms infinite backwards;
+}
+.stars .star-248 {
+  top: 63vh;
+  left: 72vw;
+  animation: twinkle 4466ms ease-in-out 4223ms infinite backwards;
+}
+.stars .star-249 {
+  top: 78vh;
+  left: 5vw;
+  animation: twinkle 4191ms ease-in-out 3659ms infinite backwards;
+}
+.stars .star-250 {
+  top: 78vh;
+  left: 82vw;
+  animation: twinkle 4038ms ease-in-out 1981ms infinite backwards;
+}
+.stars .star-251 {
+  top: 73vh;
+  left: 30vw;
+  animation: twinkle 4789ms ease-in-out 1988ms infinite backwards;
+}
+.stars .star-252 {
+  top: 68vh;
+  left: 51vw;
+  animation: twinkle 4949ms ease-in-out 3123ms infinite backwards;
+}
+.stars .star-253 {
+  top: 62vh;
+  left: 60vw;
+  animation: twinkle 4671ms ease-in-out 1128ms infinite backwards;
+}
+.stars .star-254 {
+  top: 4vh;
+  left: 4vw;
+  animation: twinkle 4225ms ease-in-out 3584ms infinite backwards;
+}
+.stars .star-255 {
+  top: 75vh;
+  left: 82vw;
+  animation: twinkle 4550ms ease-in-out 372ms infinite backwards;
+}
+.stars .star-256 {
+  top: 9vh;
+  left: 41vw;
+  animation: twinkle 4921ms ease-in-out 955ms infinite backwards;
+}
+.stars .star-257 {
+  top: 90vh;
+  left: 36vw;
+  animation: twinkle 4462ms ease-in-out 352ms infinite backwards;
+}
+.stars .star-258 {
+  top: 84vh;
+  left: 58vw;
+  animation: twinkle 4562ms ease-in-out 4082ms infinite backwards;
+}
+.stars .star-259 {
+  top: 58vh;
+  left: 42vw;
+  animation: twinkle 4288ms ease-in-out 3577ms infinite backwards;
+}
+.stars .star-260 {
+  top: 27vh;
+  left: 78vw;
+  animation: twinkle 4535ms ease-in-out 3058ms infinite backwards;
+}
+.stars .star-261 {
+  top: 70vh;
+  left: 5vw;
+  animation: twinkle 4054ms ease-in-out 4079ms infinite backwards;
+}
+.stars .star-262 {
+  top: 7vh;
+  left: 30vw;
+  animation: twinkle 4985ms ease-in-out 404ms infinite backwards;
+}
+.stars .star-263 {
+  top: 66vh;
+  left: 69vw;
+  animation: twinkle 4764ms ease-in-out 4042ms infinite backwards;
+}
+.stars .star-264 {
+  top: 87vh;
+  left: 44vw;
+  animation: twinkle 4304ms ease-in-out 903ms infinite backwards;
+}
+.stars .star-265 {
+  top: 35vh;
+  left: 22vw;
+  animation: twinkle 4387ms ease-in-out 1765ms infinite backwards;
+}
+.stars .star-266 {
+  top: 38vh;
+  left: 32vw;
+  animation: twinkle 4501ms ease-in-out 544ms infinite backwards;
+}
+.stars .star-267 {
+  top: 32vh;
+  left: 64vw;
+  animation: twinkle 4444ms ease-in-out 4429ms infinite backwards;
+}
+.stars .star-268 {
+  top: 4vh;
+  left: 90vw;
+  animation: twinkle 4205ms ease-in-out 1895ms infinite backwards;
+}
+.stars .star-269 {
+  top: 45vh;
+  left: 49vw;
+  animation: twinkle 4966ms ease-in-out 2988ms infinite backwards;
+}
+.stars .star-270 {
+  top: 42vh;
+  left: 5vw;
+  animation: twinkle 4989ms ease-in-out 4839ms infinite backwards;
+}
+.stars .star-271 {
+  top: 29vh;
+  left: 80vw;
+  animation: twinkle 4757ms ease-in-out 2629ms infinite backwards;
+}
+.stars .star-272 {
+  top: 51vh;
+  left: 44vw;
+  animation: twinkle 4361ms ease-in-out 3587ms infinite backwards;
+}
+.stars .star-273 {
+  top: 16vh;
+  left: 53vw;
+  animation: twinkle 4036ms ease-in-out 554ms infinite backwards;
+}
+.stars .star-274 {
+  top: 12vh;
+  left: 92vw;
+  animation: twinkle 4354ms ease-in-out 4228ms infinite backwards;
+}
+.stars .star-275 {
+  top: 99vh;
+  left: 56vw;
+  animation: twinkle 4600ms ease-in-out 610ms infinite backwards;
+}
+.stars .star-276 {
+  top: 69vh;
+  left: 6vw;
+  animation: twinkle 4875ms ease-in-out 2829ms infinite backwards;
+}
+.stars .star-277 {
+  top: 13vh;
+  left: 29vw;
+  animation: twinkle 4355ms ease-in-out 1793ms infinite backwards;
+}
+.stars .star-278 {
+  top: 25vh;
+  left: 82vw;
+  animation: twinkle 4974ms ease-in-out 1846ms infinite backwards;
+}
+.stars .star-279 {
+  top: 41vh;
+  left: 71vw;
+  animation: twinkle 4490ms ease-in-out 3843ms infinite backwards;
+}
+.stars .star-280 {
+  top: 18vh;
+  left: 25vw;
+  animation: twinkle 4468ms ease-in-out 4405ms infinite backwards;
+}
+.stars .star-281 {
+  top: 62vh;
+  left: 1vw;
+  animation: twinkle 4436ms ease-in-out 4965ms infinite backwards;
+}
+.stars .star-282 {
+  top: 2vh;
+  left: 22vw;
+  animation: twinkle 4857ms ease-in-out 4362ms infinite backwards;
+}
+.stars .star-283 {
+  top: 37vh;
+  left: 52vw;
+  animation: twinkle 4075ms ease-in-out 1829ms infinite backwards;
+}
+.stars .star-284 {
+  top: 49vh;
+  left: 10vw;
+  animation: twinkle 4521ms ease-in-out 3013ms infinite backwards;
+}
+.stars .star-285 {
+  top: 6vh;
+  left: 13vw;
+  animation: twinkle 4298ms ease-in-out 1950ms infinite backwards;
+}
+.stars .star-286 {
+  top: 17vh;
+  left: 8vw;
+  animation: twinkle 4609ms ease-in-out 3121ms infinite backwards;
+}
+.stars .star-287 {
+  top: 65vh;
+  left: 72vw;
+  animation: twinkle 4749ms ease-in-out 647ms infinite backwards;
+}
+.stars .star-288 {
+  top: 31vh;
+  left: 24vw;
+  animation: twinkle 4973ms ease-in-out 4915ms infinite backwards;
+}
+.stars .star-289 {
+  top: 45vh;
+  left: 32vw;
+  animation: twinkle 4244ms ease-in-out 1009ms infinite backwards;
+}
+.stars .star-290 {
+  top: 87vh;
+  left: 56vw;
+  animation: twinkle 4630ms ease-in-out 3821ms infinite backwards;
+}
+.stars .star-291 {
+  top: 13vh;
+  left: 18vw;
+  animation: twinkle 4269ms ease-in-out 2751ms infinite backwards;
+}
+.stars .star-292 {
+  top: 3vh;
+  left: 19vw;
+  animation: twinkle 4730ms ease-in-out 3558ms infinite backwards;
+}
+.stars .star-293 {
+  top: 50vh;
+  left: 68vw;
+  animation: twinkle 4751ms ease-in-out 4490ms infinite backwards;
+}
+.stars .star-294 {
+  top: 65vh;
+  left: 1vw;
+  animation: twinkle 4615ms ease-in-out 2351ms infinite backwards;
+}
+.stars .star-295 {
+  top: 68vh;
+  left: 52vw;
+  animation: twinkle 4237ms ease-in-out 2042ms infinite backwards;
+}
+.stars .star-296 {
+  top: 84vh;
+  left: 73vw;
+  animation: twinkle 4066ms ease-in-out 1448ms infinite backwards;
+}
+.stars .star-297 {
+  top: 71vh;
+  left: 83vw;
+  animation: twinkle 4422ms ease-in-out 3862ms infinite backwards;
+}
+.stars .star-298 {
+  top: 62vh;
+  left: 73vw;
+  animation: twinkle 4092ms ease-in-out 2584ms infinite backwards;
+}
+.stars .star-299 {
+  top: 47vh;
+  left: 63vw;
+  animation: twinkle 4205ms ease-in-out 680ms infinite backwards;
+}
+.stars .star-300 {
+  top: 57vh;
+  left: 39vw;
+  animation: twinkle 4822ms ease-in-out 4035ms infinite backwards;
+}
+.stars .shooting-star {
+  width: 75px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 90%);
+  left: -120px;
+}
+.stars .shooting-star-1 {
+  top: 30px;
+  animation: shoot-1 10s ease-in 4840ms infinite backwards;
+}
+@keyframes shoot-1 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.4);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.6);
+  }
+}
+.stars .shooting-star-2 {
+  top: 110px;
+  animation: shoot-2 10s ease-in 2317ms infinite backwards;
+}
+@keyframes shoot-2 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.6);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.8);
+  }
+}
+.stars .shooting-star-3 {
+  top: 110px;
+  animation: shoot-3 10s ease-in 4724ms infinite backwards;
+}
+@keyframes shoot-3 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.2);
+  }
+}
+.stars .shooting-star-4 {
+  top: 180px;
+  animation: shoot-4 10s ease-in 15090ms infinite backwards;
+}
+@keyframes shoot-4 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.3);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.5);
+  }
+}
+.stars .shooting-star-5 {
+  top: 120px;
+  animation: shoot-5 10s ease-in 18212ms infinite backwards;
+}
+@keyframes shoot-5 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.8);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(1);
+  }
+}
+.stars .shooting-star-6 {
+  top: 160px;
+  animation: shoot-6 10s ease-in 8173ms infinite backwards;
+}
+@keyframes shoot-6 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.6);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.8);
+  }
+}
+.stars .shooting-star-7 {
+  top: 90px;
+  animation: shoot-7 10s ease-in 8771ms infinite backwards;
+}
+@keyframes shoot-7 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.3);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.5);
+  }
+}
+.stars .shooting-star-8 {
+  top: 230px;
+  animation: shoot-8 10s ease-in 8637ms infinite backwards;
+}
+@keyframes shoot-8 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.4);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.6);
+  }
+}
+.stars .shooting-star-9 {
+  top: 240px;
+  animation: shoot-9 10s ease-in 5478ms infinite backwards;
+}
+@keyframes shoot-9 {
+  from {
+    transform: rotate(21deg) translate(0, -80px) scale(0.7);
+  }
+  10%, 100% {
+    transform: rotate(21deg) translate(130vw, -80px) scale(0.9);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=stars.css.map */

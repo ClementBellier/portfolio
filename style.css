@@ -1,0 +1,107 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+/* Mini Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+:root{
+    --bg-color: #2A2042;
+    --bg-light-color: #8262CC;
+    --primary-color: #41208f;
+    --secondary-color: #DA186E;
+    --tertiary-color: #F8D358;
+    --card: rgba(255,255,255,.3);
+    --shadow-card: rgba(255,255,255,.6);
+    --links: #fffc;
+
+    --font-size-base: clamp(1.25rem, 0vw + 1.25rem, 1.25rem);
+    --font-size-p: clamp(1.56rem, 0.19vw + 1.52rem, 1.67rem);
+    --font-size-h2: clamp(1.7rem, 0.49vw + 1.7rem, 2rem);
+    --font-size-h1: clamp(2.44rem, 0.94vw + 2.21rem, 2.96rem);
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(130,98,204);
+    background: linear-gradient(349deg, rgba(130,98,204,1) 0%, rgba(42,32,66,1) 100%);;
+    font-family: 'Rubik', Helvetica, sans-serif;
+    font-size: 20px;
+    color: var(--font-color);
+}
+
+main{
+    position: relative;
+    z-index: 1;
+    width: clamp(400px, 75%, 1200px);
+    background-color: var(--card);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 8px var(--shadow-card);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: var(--font-size-h1);
+    margin-block: .8em;
+    color: var(--primary-color);
+    text-shadow: 3px 3px var(--tertiary-color);
+}
+h1:before{
+    content: '\e589';
+    font-family: 'Font Awesome 6 Free';
+    color: var(--tertiary-color);
+    text-shadow: none;
+    margin-right: 15px;
+}
+h2{
+    font-size: var(--font-size-h2);
+    margin-block: .7em;
+    color: var(--tertiary-color);
+}
+p{
+    font-size: var(--font-size-p);
+}
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10%;
+}
+.text p{
+    margin-bottom: 25px;
+}
+.networks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.networks a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 130px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: var(--links);
+    box-shadow: 3px 3px 6px #0003;
+    transition: all .3s ease-in-out;
+}
+.networks a:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px #0005;
+}
+.networks img{
+    width: 80px;
+}
