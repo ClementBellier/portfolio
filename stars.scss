@@ -27,14 +27,14 @@ $shooting-star: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,
         left: -120px;
         @for $i from 1 through 9{
             &-#{$i}{
-                top: (random(15) * 10 + $i * 10)+px;                    
-                animation: shoot-#{$i} 10s ease-in random(20000)+ms infinite backwards;
+                top: (random(15) * 10 + $i * 100)+px;                    
+                animation: shoot-#{$i} 15s ease-in random(20000)+ms infinite backwards;
             }
             @at-root{
                 @keyframes shoot-#{$i} {
                     $random: (random(10)*.1);
-                    from{transform: rotate(21deg) translate(0, -80px) scale($random - .2);}
-                    10%, 100%{transform: rotate(21deg) translate(130vw, -80px) scale($random);}
+                    from{transform: rotate(21deg) translate(-30vw, -50vh) scale($random - .2);}
+                    10%, 100%{transform: rotate(21deg) translate(130vw, -50vh) scale($random);}
                 }
             }
         }
