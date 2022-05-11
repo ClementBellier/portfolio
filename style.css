@@ -60,7 +60,7 @@ h1:before{
     content: '\e589';
     font-family: 'Font Awesome 6 Free';
     color: var(--tertiary-color);
-    text-shadow: none;
+    text-shadow: 3px 3px var(--secondary-color);
     margin-right: 15px;
 }
 h2{
