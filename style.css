@@ -22,6 +22,7 @@ a{
     --shadow-card: rgba(255,255,255,.6);
     --links: #fffc;
 
+    font-size: 18px;
     --font-size-base: clamp(1.25rem, 0vw + 1.25rem, 1.25rem);
     --font-size-p: clamp(1.56rem, 0.19vw + 1.52rem, 1.67rem);
     --font-size-h2: clamp(1.7rem, 0.49vw + 1.7rem, 2rem);
@@ -34,10 +35,11 @@ body{
     background: rgb(130,98,204);
     background: linear-gradient(349deg, rgba(130,98,204,1) 0%, rgba(42,32,66,1) 100%);;
     font-family: 'Rubik', Helvetica, sans-serif;
-    font-size: 20px;
     color: var(--font-color);
 }
-
+@media (max-width: 450px){
+    :root{font-size: 14px;}
+}
 main{
     position: relative;
     z-index: 1;
@@ -104,4 +106,5 @@ p{
 }
 .networks img{
     width: 80px;
+    max-width: 45vw;
 }
