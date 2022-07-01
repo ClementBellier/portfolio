@@ -1,0 +1,50 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1656692443760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656692453376,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,5 +134,30 @@\n .landscape__image svg{\r\n     display: block;\r\n     height: auto;\r\n     max-width: 100%;\r\n+}\r\n+.bg-montain, .bg-stroke, .fg-stroke{\r\n+    position: absolute;\r\n+    bottom: 0;\r\n+}\r\n+.bg-montain{\r\n+    fill: var(--bg-color);\r\n+}\r\n+.bg-stroke, .fg-stroke{\r\n+    stroke-width: 1px;\r\n+    fill: none;\r\n+    stroke-linecap: round;\r\n+}\r\n+.bg-stroke{\r\n+    stroke: var(--primary-color);\r\n+}\r\n+.fg-stroke{\r\n+    stroke: var(--bg-light-color);\r\n+    stroke-dasharray: 50 1100;\r\n+    stroke-dashoffset: 0;\r\n+    animation: montain-shape 4s linear infinite;\r\n+}\r\n+@keyframes montain-shape {\r\n+    from{stroke-dashoffset: 0;}\r\n+    to{stroke-dashoffset: 1100;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656692731924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n @media (max-width: 450px){\r\n     :root{font-size: 14px;}\r\n }\r\n main{\r\n-    position: relative;\r\n+    position: absolute;\r\n     z-index: 1;\r\n     width: clamp(400px, 75%, 1200px);\r\n     background-color: var(--card);\r\n     border-radius: 20px;\r\n"
+                },
+                {
+                    "date": 1656693166331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     color: inherit;\r\n }\r\n :root{\r\n     --bg-color: #2A2042;\r\n-    --bg-light-color: #8262CC;\r\n+    --bg-light-color: #d1c2f5;\r\n     --primary-color: #41208f;\r\n     --secondary-color: #DA186E;\r\n     --tertiary-color: #F8D358;\r\n     --card: rgba(255,255,255,.3);\r\n"
+                },
+                {
+                    "date": 1656693196866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,9 +152,9 @@\n     stroke: var(--primary-color);\r\n }\r\n .fg-stroke{\r\n     stroke: var(--bg-light-color);\r\n-    stroke-dasharray: 50 1100;\r\n+    stroke-dasharray: 1100 1100;\r\n     stroke-dashoffset: 0;\r\n     animation: montain-shape 4s linear infinite;\r\n }\r\n @keyframes montain-shape {\r\n"
+                },
+                {
+                    "date": 1656693217557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,7 +157,7 @@\n     stroke-dashoffset: 0;\r\n     animation: montain-shape 4s linear infinite;\r\n }\r\n @keyframes montain-shape {\r\n-    from{stroke-dashoffset: 0;}\r\n+    from{stroke-dashoffset: 1100;}\r\n     to{stroke-dashoffset: 1100;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656693239738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,12 +152,12 @@\n     stroke: var(--primary-color);\r\n }\r\n .fg-stroke{\r\n     stroke: var(--bg-light-color);\r\n-    stroke-dasharray: 1100 1100;\r\n+    stroke-dasharray: 1000 1100;\r\n     stroke-dashoffset: 0;\r\n     animation: montain-shape 4s linear infinite;\r\n }\r\n @keyframes montain-shape {\r\n-    from{stroke-dashoffset: 1100;}\r\n+    from{stroke-dashoffset: -1100;}\r\n     to{stroke-dashoffset: 1100;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656693245759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -152,12 +152,12 @@\n     stroke: var(--primary-color);\r\n }\r\n .fg-stroke{\r\n     stroke: var(--bg-light-color);\r\n-    stroke-dasharray: 1000 1100;\r\n+    stroke-dasharray: 1000 1000;\r\n     stroke-dashoffset: 0;\r\n     animation: montain-shape 4s linear infinite;\r\n }\r\n @keyframes montain-shape {\r\n-    from{stroke-dashoffset: -1100;}\r\n-    to{stroke-dashoffset: 1100;}\r\n+    from{stroke-dashoffset: -1000;}\r\n+    to{stroke-dashoffset: 1000;}\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1656693263014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     color: inherit;\r\n }\r\n :root{\r\n     --bg-color: #2A2042;\r\n-    --bg-light-color: #d1c2f5;\r\n+    --bg-light-color: #b39ee2;\r\n     --primary-color: #41208f;\r\n     --secondary-color: #DA186E;\r\n     --tertiary-color: #F8D358;\r\n     --card: rgba(255,255,255,.3);\r\n"
+                }
+            ],
+            "date": 1656692443760,
+            "name": "Commit-0",
+            "content": "@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');\r\n@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');\r\n@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');\r\n\r\n/* Mini Reset */\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\na{\r\n    text-decoration: none;\r\n    color: inherit;\r\n}\r\n:root{\r\n    --bg-color: #2A2042;\r\n    --bg-light-color: #8262CC;\r\n    --primary-color: #41208f;\r\n    --secondary-color: #DA186E;\r\n    --tertiary-color: #F8D358;\r\n    --card: rgba(255,255,255,.3);\r\n    --shadow-card: rgba(255,255,255,.6);\r\n    --links: #fffc;\r\n\r\n    font-size: 18px;\r\n    --font-size-base: clamp(1.25rem, 0vw + 1.25rem, 1.25rem);\r\n    --font-size-p: clamp(1.56rem, 0.19vw + 1.52rem, 1.67rem);\r\n    --font-size-h2: clamp(1.7rem, 0.49vw + 1.7rem, 2rem);\r\n    --font-size-h1: clamp(2.44rem, 0.94vw + 2.21rem, 2.96rem);\r\n}\r\nbody{\r\n    position: relative;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background: rgb(130,98,204);\r\n    background: linear-gradient(349deg, rgba(130,98,204,1) 0%, rgba(42,32,66,1) 100%);;\r\n    font-family: 'Rubik', Helvetica, sans-serif;\r\n    color: var(--font-color);\r\n}\r\n@media (max-width: 450px){\r\n    :root{font-size: 14px;}\r\n}\r\nmain{\r\n    position: relative;\r\n    z-index: 1;\r\n    width: clamp(400px, 75%, 1200px);\r\n    background-color: var(--card);\r\n    border-radius: 20px;\r\n    padding: 40px;\r\n    box-shadow: 0 0 8px var(--shadow-card);\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n}\r\nh1{\r\n    font-size: var(--font-size-h1);\r\n    margin-block: .8em;\r\n    color: var(--primary-color);\r\n    text-shadow: 3px 3px var(--tertiary-color);\r\n}\r\nh1:before{\r\n    content: '\\e589';\r\n    font-family: 'Font Awesome 6 Free';\r\n    color: var(--tertiary-color);\r\n    text-shadow: 3px 3px var(--secondary-color);\r\n    margin-right: 15px;\r\n}\r\nh2{\r\n    font-size: var(--font-size-h2);\r\n    margin-block: .7em;\r\n    color: var(--tertiary-color);\r\n}\r\np{\r\n    font-size: var(--font-size-p);\r\n}\r\n.flex-container{\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    align-items: center;\r\n    gap: 10%;\r\n}\r\n.text p{\r\n    margin-bottom: 25px;\r\n}\r\n.networks{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap: wrap;\r\n    gap: 5px;\r\n}\r\n.networks a{\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    width: 130px;\r\n    height: 150px;\r\n    border-radius: 10px;\r\n    background-color: var(--links);\r\n    box-shadow: 3px 3px 6px #0003;\r\n    transition: all .3s ease-in-out;\r\n}\r\n.networks a:hover{\r\n    transform: scale(1.1);\r\n    box-shadow: 5px 5px 10px #0005;\r\n}\r\n.networks img{\r\n    width: 80px;\r\n    max-width: 45vw;\r\n}\r\n.landscape{\r\n    height: 100vh;\r\n    width: 100vw;\r\n    overflow: hidden;\r\n    position: absolute;\r\n}\r\n.landscape__layer{\r\n    height: 100%;\r\n    left: 0;\r\n    position: absolute;\r\n    width: 100%;\r\n    top: 0;\r\n}\r\n.landscape__image{\r\n    bottom: 0;\r\n    left: 50%;\r\n    max-height: 100%;\r\n    max-width: 200%;\r\n    min-width: 100%;\r\n    position: absolute;\r\n    transform: translate(-50%);\r\n    width: 2000px;\r\n}\r\n.landscape__image svg{\r\n    display: block;\r\n    height: auto;\r\n    max-width: 100%;\r\n}"
+        }
+    ]
+}

@@ -14,7 +14,7 @@ a{
 }
 :root{
     --bg-color: #2A2042;
-    --bg-light-color: #8262CC;
+    --bg-light-color: #b39ee2;
     --primary-color: #41208f;
     --secondary-color: #DA186E;
     --tertiary-color: #F8D358;
@@ -41,7 +41,7 @@ body{
     :root{font-size: 14px;}
 }
 main{
-    position: relative;
+    position: absolute;
     z-index: 1;
     width: clamp(400px, 75%, 1200px);
     background-color: var(--card);
@@ -107,4 +107,57 @@ p{
 .networks img{
     width: 80px;
     max-width: 45vw;
+}
+.landscape{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+}
+.landscape__layer{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.landscape__image{
+    bottom: 0;
+    left: 50%;
+    max-height: 100%;
+    max-width: 200%;
+    min-width: 100%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 2000px;
+}
+.landscape__image svg{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.bg-montain, .bg-stroke, .fg-stroke{
+    position: absolute;
+    bottom: 0;
+}
+.bg-montain{
+    fill: var(--bg-color);
+}
+.bg-stroke, .fg-stroke{
+    stroke-width: 1px;
+    fill: none;
+    stroke-linecap: round;
+}
+.bg-stroke{
+    stroke: var(--primary-color);
+}
+.fg-stroke{
+    stroke: var(--bg-light-color);
+    stroke-dasharray: 1000 1000;
+    stroke-dashoffset: 0;
+    animation: montain-shape 4s linear infinite;
+}
+@keyframes montain-shape {
+    from{stroke-dashoffset: -1000;}
+    to{stroke-dashoffset: 1000;}
 }
