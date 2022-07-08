@@ -13,12 +13,27 @@ a{
     color: inherit;
 }
 :root{
-    --bg-color: #2A2042;
-    --bg-light-color: #b39ee2;
-    --primary-color: #41208f;
-    --secondary-color: #DA186E;
-    --tertiary-color: #F8D358;
-    --card: rgba(255,255,255,.2);
+    --sky-top: #6e2592;
+    --sky-bottom: #fcb4b4;
+    --mountain1: #F9604E;
+    --mountain1-shadow: #F25341;
+    --mountain2: #FF745D;
+    --mountain2-shadow: #ED5D45;
+    --mountain3: #DB2E3C;
+    --mountain3-shadow: #CC2330;
+    --mountain4: #7B062F;
+    --mountain4-shadow: #6B0228;
+    --mountain5: #52042C;
+    --mountain5-shadow: #4A0428;
+    --forest1: #990738;
+    --forest2: #7C062D;
+    --forest3: #54042C;
+    --forest4: #3D0321;
+    --forest5: #2F0C29;
+    --primary-color: #20003A;
+    --secondary-color: #3E7A57;
+    --tertiary-color: #AB5E00;
+    --card: rgba(255,255,255,.4);
     --shadow-card: rgba(255,255,255,.6);
     --links: #fffc;
 
@@ -32,8 +47,8 @@ body{
     position: relative;
     width: 100vw;
     height: 100vh;
-    background: rgb(130,98,204);
-    background: linear-gradient(349deg, rgba(130,98,204,1) 0%, rgba(42,32,66,1) 100%);;
+    background: var(--sky-top);
+    background: linear-gradient(350deg, var(--sky-bottom) 0%, var(--sky-top) 100%);
     font-family: 'Rubik', Helvetica, sans-serif;
     color: var(--font-color);
 }
@@ -45,7 +60,7 @@ main{
     z-index: 1;
     width: clamp(300px, 80%, 1200px);
     background-color: var(--card);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(3px);
     border-radius: 20px;
     padding: 40px;
     box-shadow: 0 0 8px var(--shadow-card);
@@ -62,14 +77,14 @@ h1{
 h1:before{
     content: '\e589';
     font-family: 'Font Awesome 6 Free';
-    color: var(--tertiary-color);
-    text-shadow: 3px 3px var(--secondary-color);
+    color: var(--secondary-color);
+    text-shadow: 3px 3px var(--tertiary-color);
     margin-right: 15px;
 }
 h2{
     font-size: var(--font-size-h2);
     margin-block: .7em;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 p{
     font-size: var(--font-size-p);
@@ -130,7 +145,7 @@ p{
 .landscape__image{
     bottom: 0;
     left: 50%;
-    max-height: 100%;
+    max-height: 130%;
     max-width: 200%;
     min-width: 100%;
     position: absolute;
@@ -142,28 +157,52 @@ p{
     height: auto;
     max-width: 100%;
 }
-.bg-montain, .bg-stroke, .fg-stroke{
+[class^="mountain"],[class^="forest"]{
     position: absolute;
     bottom: 0;
 }
-.bg-montain{
-    fill: var(--bg-color);
+.mountain1{
+    fill: var(--mountain1);
 }
-.bg-stroke, .fg-stroke{
-    stroke-width: 1px;
-    fill: none;
-    stroke-linecap: round;
+.mountain1-shadow{
+    fill: var(--mountain1-shadow);
 }
-.bg-stroke{
-    stroke: var(--primary-color);
+.mountain2{
+    fill: var(--mountain2);
 }
-.fg-stroke{
-    stroke: var(--bg-light-color);
-    stroke-dasharray: 1000 1000;
-    stroke-dashoffset: 0;
-    animation: montain-shape 4s linear infinite;
+.mountain2-shadow{
+    fill: var(--mountain2-shadow);
 }
-@keyframes montain-shape {
-    from{stroke-dashoffset: -1000;}
-    to{stroke-dashoffset: 1000;}
+.mountain3{
+    fill: var(--mountain3);
+}
+.mountain3-shadow{
+    fill: var(--mountain3-shadow);
+}
+.mountain4{
+    fill: var(--mountain4);
+}
+.mountain4-shadow{
+    fill: var(--mountain4-shadow);
+}
+.mountain5{
+    fill: var(--mountain5);
+}
+.mountain5-shadow{
+    fill: var(--mountain5-shadow);
+}
+.forest1{
+    fill: var(--forest1);
+}
+.forest2{
+    fill: var(--forest2);
+}
+.forest3{
+    fill: var(--forest3);
+}
+.forest4{
+    fill: var(--forest4);
+}
+.forest5{
+    fill: var(--forest5);
 }
