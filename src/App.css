@@ -1,0 +1,178 @@
+nav{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding-inline: 5px;
+  border-image: conic-gradient(var(--nav) 0 0) fill 0/0/0 100vmax;
+  color: var(--nav-text);
+  white-space: nowrap;
+}
+@media (min-width: 760px){
+  nav{width: clamp(300px, 80%, 1200px); padding-inline: 40px;}
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li{
+  padding-block: 5px;
+  text-align: center;
+  flex: 1;
+  transition: all .2s ease-in-out;
+  transform-origin: bottom;
+}
+nav li:hover{
+  scale: 1.05;
+}
+.active-link{
+  background-color: var(--sky-bottom);
+  color: var(--primary-color);
+}
+main{
+  margin-bottom: calc(.8em + 40px);
+  position: relative;
+}
+#home, #aboutme, #skills, #projects, #csschallenge, #contact{
+  text-align: center;
+  white-space: pre-line;
+  font-size: 25px;
+  min-height: calc(90vh - 80px);
+  margin-bottom: 80px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home{
+  padding-top: 0;
+  justify-content: center;
+}
+#aboutme img{
+  width: min(300px, 30%);
+  border-radius: 15%;
+}
+#aboutme p{
+  text-align: left;
+  font-size: var(--font-size-p);
+}
+#skills, #projects{
+  gap: 10px;
+}
+.wrapper{
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: var(--skills);
+  box-shadow: 3px 3px 6px #0003;
+  padding: 10px;
+}
+.wrapper h3{
+  align-self: flex-start;
+}
+.wrapper img{
+  width: 80%;
+}
+.wrapper p{
+  text-align: left;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.container div{
+  background-color: var(--links);
+  padding: 8px;
+  border-radius: 8px;
+}
+.container div p {
+  text-align: center;
+}
+.container svg{
+  width: 50px;
+  height: 50px;
+}
+.category{
+  position: absolute;
+  right: 10px;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: var(--tertiary-color);
+  color: var(--nav-text);
+}
+.days{
+  justify-content: space-evenly;
+}
+.container .day{
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+@media (max-width: 475px){
+  .day{scale:.75}
+}
+.container .penContainer{
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.penContainer .pen{
+  border: none;
+  height: 560px;
+  margin: -90px 0 -70px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 400px;
+  z-index: 5;
+}
+.penText{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+}
+.penText a{
+  display: flex;
+  align-items: center;
+}
+.penText svg{
+  width: 40px;
+  height: 40px;
+  fill: black;
+  cursor: pointer;
+}
+.penActions .refresh{
+  width: 30px;
+  transition: all .3s ease-in-out;
+}
+.penActions .refresh:hover{
+  rotate: -.5turn;
+}
+.penActions .penLink svg:hover, .penActions .refresh:hover{
+  fill: var(--tertiary-color);
+  color: var(--tertiary-color)
+}
+.penText p{
+  margin-left: 8px;
+  text-overflow: ellipsis;
+}
+.penText .penActions{
+  display: flex;
+  background: none;
+}
