@@ -60,7 +60,7 @@ main{
   text-align: left;
   font-size: var(--font-size-p);
 }
-#skills, #projects{
+#skills, #projects, #contact{
   gap: 10px;
 }
 .wrapper{
@@ -175,4 +175,46 @@ main{
 .penText .penActions{
   display: flex;
   background: none;
+}
+#contact .container{
+  justify-content: space-evenly;
+}
+#contact .container div{
+  width: 250px;
+}
+#contact a{
+  transition: .3s ease-in-out;
+}
+#contact a:hover{
+  scale: 1.05;
+}
+.resume{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 5px;
+}
+.resume h3{
+  align-self: center;
+}
+.contact-me input,.contact-me button, .contact-me textarea{
+  width: 95%;
+  padding: 15px;
+  margin-block: 15px;
+  border-radius: 10px;
+  border: none;
+}
+.contact-me input:focus-visible,.contact-me textarea:focus-visible{
+  outline: 3px solid var(--sky-top);
+}
+.contact-me button{
+  background-color: var(--secondary-color);
+  color: var(--nav-text);
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+.contact-me button:hover{
+  scale: 1.05;
 }
