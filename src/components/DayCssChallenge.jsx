@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import useIntersectionObserver from '@react-hook/intersection-observer'
+import { CSSCHALLENGE } from '../../public/text'
 
 export function DayCssChallenge({ day, index }) {
   const containerRef = useRef()
@@ -32,6 +33,7 @@ export function DayCssChallenge({ day, index }) {
           <a
             href={`https://codepen.io/clementbellier/full/${day.PEN}`}
             className="penLink"
+            aria-label={`${CSSCHALLENGE.CODEPEN_LINK_ALT_TXT}${day.TITLE}`}
           >
             <svg>
               <use href="#codepen" />

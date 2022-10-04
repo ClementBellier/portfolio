@@ -29,6 +29,7 @@ function Skills() {
       <Skill categorie={SKILLS.SENSITIZED} />
       <Skill categorie={SKILLS.SOFT_SKILLS} />
       <Skill categorie={SKILLS.LEARNING} />
+      <div className='empty-for-scroll'></div>
     </section>
   )
 }

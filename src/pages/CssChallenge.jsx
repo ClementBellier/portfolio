@@ -1,12 +1,18 @@
+import { useState } from 'react'
 import { ANCHORS, CSSCHALLENGE } from '../../public/text'
 import { DayCssChallenge } from '../components/DayCssChallenge'
 
 function CssChallenge() {
+  const [showChallenge, setShowChallenge] = useState(false)
   return (
     <section id={ANCHORS.CSS_CHALLENGE}>
       <h2>{CSSCHALLENGE.TITLE}</h2>
       <p>{CSSCHALLENGE.TEXT}</p>
-      <a href={CSSCHALLENGE.CHALLENGE_URL} className="container">
+      <a
+        href={CSSCHALLENGE.CHALLENGE_URL}
+        className="container"
+        style={{ marginBlock: '20px' }}
+      >
         <div
           style={{
             backgroundColor: 'var(--tertiary-color)',
@@ -16,10 +22,21 @@ function CssChallenge() {
           {CSSCHALLENGE.CHALLENGE_LINK}
         </div>
       </a>
-      <div className="container days">
-        {CSSCHALLENGE.DAYS.map((day, index) => (
-          <DayCssChallenge day={day} index={index} key={`day-${index}`} />
-        ))}
+      <div className="all-days">
+        <div className="button-container">
+          <button onClick={() => setShowChallenge(!showChallenge)}>
+            {showChallenge
+              ? CSSCHALLENGE.HIDE_CHALLENGE
+              : CSSCHALLENGE.SHOW_CHALLENGE}
+          </button>
+        </div>
+        {showChallenge && (
+          <div className="container days">
+            {CSSCHALLENGE.DAYS.map((day, index) => (
+              <DayCssChallenge day={day} index={index} key={`day-${index}`} />
+            ))}
+          </div>
+        )}
       </div>
     </section>
   )

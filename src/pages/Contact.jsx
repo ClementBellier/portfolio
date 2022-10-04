@@ -19,12 +19,19 @@ function Resume({ resume }) {
 
 function Networks() {
   return (
-    <div className="wrapper" style={{ flex: 3 }}>
+    <div className="wrapper" style={{ flex: 3, paddingBottom: "20px" }}>
       <h3>{CONTACT.MY_NETWORKS.TITLE}</h3>
       <div className="container">
         {CONTACT.MY_NETWORKS.NETWORKS.map(network => (
           <a key={network.NAME} href={network.URL}>
-            <div>{network.NAME}</div>
+            <div className='network'>
+              {network.SVG && (
+                <svg>
+                  <use href={network.SVG} />
+                </svg>
+              )}
+              <p>{network.NAME}</p>
+            </div>
           </a>
         ))}
       </div>
@@ -88,12 +95,13 @@ function Contact() {
   return (
     <section id={ANCHORS.CONTACT}>
       <h2>{CONTACT.TITLE}</h2>
-      <div style={{ display: 'flex', gap: '10px', width: '100%' }}>
+      <div className="findMe">
         <Networks />
         <Resume resume={CONTACT.MY_RESUME} />
       </div>
       <h2>{CONTACT.MAIL_ME.TITLE}</h2>
       <Mail />
+      <div className='empty-for-scroll'></div>
     </section>
   )
 }

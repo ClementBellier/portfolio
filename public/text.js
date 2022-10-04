@@ -26,20 +26,21 @@ export const CONTACT = {
   MY_NETWORKS: {
     TITLE: 'Mes réseaux',
     NETWORKS: [
-      { NAME: 'Github', URL: 'https://github.com/ClementBellier' },
+      { NAME: 'Github', URL: 'https://github.com/ClementBellier', SVG:"#github" },
       {
         NAME: 'LinkedIn',
-        URL: 'https://www.linkedin.com/in/clement-bellier-b08309179/',
+        URL: 'https://www.linkedin.com/in/clement-bellier-b08309179/', SVG:"#linkedIn"
       },
-      { NAME: 'CodePen', URL: 'https://codepen.io/clementbellier' },
-      { NAME: 'Twitter', URL: 'https://twitter.com/BremiumB' },
+      { NAME: 'CodePen', URL: 'https://codepen.io/clementbellier', SVG:"#codepen-round" },
+      { NAME: 'Twitter', URL: 'https://twitter.com/BremiumB', SVG: "#twitter" },
       {
         NAME: 'CodinGame',
         URL: 'https://www.codingame.com/profile/a288606b19f268c63304658157491fb70395194',
+        SVG:"#codingames"
       },
       {
         NAME: 'WeLoveDevs',
-        URL: 'https://welovedevs.com/app/fr/developer/clement-developpeur-frontend-junior-reactjs',
+        URL: 'https://welovedevs.com/app/fr/developer/clement-developpeur-frontend-junior-reactjs', SVG:"#welovedevs"
       },
     ],
   },
@@ -114,6 +115,8 @@ export const PROJECTS = {
   LIVE_LINK: 'Site',
   CODE_LINK: 'Code',
   DOC_LINK: 'Documentation',
+  IMG_LINK_ALT_TXT:"Aperçu de la première page du projet ",
+  ARIA_LABEL_LINK:"Vers le site ",
   PROJECTS_TO_DISPLAY: [
     'BAY',
     'AERONOTES',
@@ -153,7 +156,7 @@ export const PROJECTS = {
     IMAGE_URL: '/assets/bijoux_alex_yell.png',
     SUBTITLE: 'Site de vente de bijoux',
     DESCRIPTION:
-      "Implémentation sous Joomla et Virtuemart (choix des clientes)\nCréation libre de l'UX/UI, Intégration de Matomo (analytics)\nConfiguration de Paypal, Ajouts de boutons animés en CSS\nSuppression de la quantité des produits (bijoux uniques) en PHP",
+      "Implémentation sous Joomla et Virtuemart\nCréation libre de l'UX/UI, Intégration de Matomo (analytics)\nConfiguration de Paypal, Ajouts de boutons animés en CSS\nSuppression de la quantité des produits (bijoux uniques) en PHP",
     SKILLS: [4, 5, 3, 2, 6],
     CATEGORY: 0,
   },
@@ -240,7 +243,10 @@ export const CSSCHALLENGE = {
   TITLE: '100 Days Css Challenge',
   TEXT: "Du 22 Mars 2022 au 29 Juin 2022, je me suis lancé le défi de réaliser ce challenge alors que je ne codais que depuis 1 mois. Ce fût difficile mais j'ai beaucoup appris, en CSS et HTML notamment mais j'ai aussi appris à m'organiser, me limiter dans le temps et dans ma créativité.",
   CHALLENGE_URL: 'https://100dayscss.com/',
-  CHALLENGE_LINK: 'Voir le challenge',
+  CHALLENGE_LINK: 'Aller vers le site du challenge',
+  SHOW_CHALLENGE: 'Montrer mes 100 défis',
+  HIDE_CHALLENGE: 'Cacher les défis',
+  CODEPEN_LINK_ALT_TXT: "Vers le codepen du défi ",
   DAYS: [
     { DAY: 1, TITLE: '100 Days CSS', PEN: 'NWXROrg' },
     { DAY: 2, TITLE: 'Menu Icon', PEN: 'WNdoddv' },
