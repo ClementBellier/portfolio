@@ -72,11 +72,16 @@ body{
     box-shadow: 0 0 8px var(--shadow-card);
     top: 48%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     overflow-y: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     scroll-snap-type: y mandatory;
+    animation: content-appears 1.5s ease-in-out 1.5s both;
+}
+@keyframes content-appears {
+    from{transform: translate(-50%, 100vh);}
+    to{transform: translate(-50%, -50%);}
 }
 .content::-webkit-scrollbar{
     display: none;
@@ -169,49 +174,73 @@ p{
 [class^="mountain"],[class^="forest"]{
     position: absolute;
     bottom: 0;
+    animation: landscape-appears 1.5s ease-in-out both;
+}
+@keyframes landscape-appears {
+    from{transform: translateY(200vh);}
 }
 .mountain1{
     fill: var(--mountain1);
+    animation-delay: 1s;
 }
 .mountain1-shadow{
     fill: var(--mountain1-shadow);
+    animation-delay: 1s;
 }
 .mountain2{
     fill: var(--mountain2);
+    animation-delay: 1s;
 }
 .mountain2-shadow{
     fill: var(--mountain2-shadow);
+    animation-delay: 1s;
 }
 .mountain3{
     fill: var(--mountain3);
+    animation-delay: .8s;
 }
 .mountain3-shadow{
     fill: var(--mountain3-shadow);
+    animation-delay: .8s;
 }
 .mountain4{
     fill: var(--mountain4);
+    animation-delay: .7s;
 }
 .mountain4-shadow{
     fill: var(--mountain4-shadow);
+    animation-delay: .7s;
 }
 .mountain5{
     fill: var(--mountain5);
+    animation-delay: .6s;
 }
 .mountain5-shadow{
     fill: var(--mountain5-shadow);
+    animation-delay: .6s;
 }
 .forest1{
     fill: var(--forest1);
+    animation-delay: .4s;
 }
 .forest2{
     fill: var(--forest2);
+    animation-delay: .3s;
 }
 .forest3{
+    animation-delay: .2s;
     fill: var(--forest3);
 }
 .forest4{
+    animation-delay: .1s;
     fill: var(--forest4);
 }
 .forest5{
     fill: var(--forest5);
+}
+.stars{
+    animation: stars-appears .5s ease-in-out 2s both;
+}
+@keyframes stars-appears {
+    from{opacity: 0;}
 }

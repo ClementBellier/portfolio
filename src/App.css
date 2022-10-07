@@ -8,7 +8,12 @@ nav{
   padding-inline: 5px;
   border-image: conic-gradient(var(--nav) 0 0) fill 0/0/0 100vmax;
   color: var(--nav-text);
-  white-space: nowrap;
+  white-space: nowrap;  
+  animation: nav-appears 1.5s ease-in-out 1s both;
+}
+@keyframes nav-appears {
+  from{transform: translate(-50%, 100vh);}
+  to{transform: translate(-50%, 0);}
 }
 @media (min-width: 760px){
   nav{width: clamp(300px, 80%, 1200px); padding-inline: 40px;}
@@ -53,13 +58,26 @@ main{
   padding-top: 0;
   justify-content: center;
 }
+.wrapper.aboutMe{
+  width: 100%;
+  padding: 15px;
+}
+.wrapper.aboutMe .container{
+  gap: 20px;
+  align-items: center;
+}
+@media (max-width: 700px){
+  .wrapper.aboutMe .container{flex-direction: column;}
+}
 #aboutme img{
   width: min(300px, 30%);
   border-radius: 16px;
+  flex: 1;
 }
 #aboutme p{
   text-align: left;
   font-size: var(--font-size-p);
+  flex: 4;
 }
 #skills, #projects, #contact{
   gap: 10px;
@@ -95,6 +113,10 @@ main{
   flex-wrap: wrap;
   gap: 10px;
 }
+#projects .wrapper{
+  gap: 25px;
+  padding-block: 20px;
+}
 .container div{
   background-color: var(--links);
   padding: 8px;
@@ -110,10 +132,10 @@ main{
 .category{
   position: absolute;
   right: 10px;
-  width: 100px;
+  width: 200px;
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 20px;
   background-color: var(--tertiary-color);
   color: var(--nav-text);
 }
@@ -221,9 +243,6 @@ a, button{
 a:hover, button:hover{
   scale: 1.05;
 }
-a:has(>img):hover{
-  scale: 1;
-}
 .resume{
   display: inline-flex;
   flex-direction: column;
@@ -238,6 +257,15 @@ a:has(>img):hover{
   margin-block: 15px;
   border-radius: 10px;
   border: none;
+}
+.errorMessage{
+  width: 95%;
+  padding-top: 15px;
+  color: var(--tertiary-color);
+}
+.successMessage{
+  color: var(--primary-color);
+  font-weight: 500;
 }
 .contact-me input:focus-visible,.contact-me textarea:focus-visible{
   outline: 3px solid var(--sky-top);

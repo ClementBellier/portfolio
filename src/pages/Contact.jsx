@@ -19,12 +19,12 @@ function Resume({ resume }) {
 
 function Networks() {
   return (
-    <div className="wrapper" style={{ flex: 3, paddingBottom: "20px" }}>
+    <div className="wrapper" style={{ flex: 3, paddingBottom: '20px' }}>
       <h3>{CONTACT.MY_NETWORKS.TITLE}</h3>
       <div className="container">
         {CONTACT.MY_NETWORKS.NETWORKS.map(network => (
           <a key={network.NAME} href={network.URL}>
-            <div className='network'>
+            <div className="network">
               {network.SVG && (
                 <svg>
                   <use href={network.SVG} />
@@ -45,21 +45,32 @@ function Mail() {
     message: '',
     reply_to: '',
   })
+  const [error, setError] = useState(false)
+  const [mailSent, setMailSent] = useState(false)
   const handleChange = e => {
     setToSend({ ...toSend, [e.target.name]: e.target.value })
   }
   const onSubmit = e => {
     e.preventDefault()
     send('service_kggt9wi', 'template_5iycs2s', toSend, 't1H_ElJlETv0zYWL0')
-      .then(response => {
-        console.log('SUCCESS!', response.status, response.text)
+      .then(() => {
+        setMailSent(true)
       })
-      .catch(err => {
-        console.log('FAILED...', err)
+      .catch(() => {
+        setError(true)
       })
   }
+  if (mailSent)
+    return (
+      <div className="wrapper" style={{ width: '100%' }}>
+        <div className="container">
+          <p className="successMessage">{CONTACT.MAIL_ME.SUCCESS_MESSAGE}</p>
+        </div>
+      </div>
+    )
   return (
     <div className="wrapper" style={{ width: '100%' }}>
+      {error && <p className="errorMessage">{CONTACT.MAIL_ME.ERROR_MESSAGE}</p>}
       <form onSubmit={onSubmit} className="contact-me">
         <input
           type="text"
@@ -68,6 +79,7 @@ function Mail() {
           aria-label={CONTACT.MAIL_ME.NAME}
           value={toSend.from_name}
           onChange={handleChange}
+          required
         />
         <input
           type="text"
@@ -76,6 +88,7 @@ function Mail() {
           aria-label={CONTACT.MAIL_ME.EMAIL}
           value={toSend.reply_to}
           onChange={handleChange}
+          required
         />
         <textarea
           type="text"
@@ -85,6 +98,7 @@ function Mail() {
           value={toSend.message}
           onChange={handleChange}
           rows="3"
+          required
         />
         <button type="submit">{CONTACT.MAIL_ME.SUBMIT}</button>
       </form>
@@ -101,7 +115,7 @@ function Contact() {
       </div>
       <h2>{CONTACT.MAIL_ME.TITLE}</h2>
       <Mail />
-      <div className='empty-for-scroll'></div>
+      <div className="empty-for-scroll"></div>
     </section>
   )
 }

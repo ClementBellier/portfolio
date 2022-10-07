@@ -55,11 +55,13 @@ export const CONTACT = {
     NAME: 'Votre Nom',
     EMAIL: 'Votre Email',
     MESSAGE: 'Votre Message',
-    SUBMIT: "Envoyer"
+    SUBMIT: "Envoyer",
+    ERROR_MESSAGE:"Oups, il semble qu'il y est eu une erreur.\nMerci de retenter un envoi ou de m'écrire via mes réseaux (liens au dessus).",
+    SUCCESS_MESSAGE:"Le message m'a bien été envoyé. Je reviens vers vous au plus vite !",
   },
 }
 export const ABOUT_ME = {
-  ME: `Je suis Clément, reconverti au développement web après 35 années à la recherche du métier passion.\nJ'ai eu plusieurs carrières dans ma vie, pâtissier, boulanger, surveillant dans un collège puis une formation de technicien informatique pour enfin trouver le domaine qui m'épanouit pleinement.\n`,
+  ME: `Je suis Clément, reconverti au développement web après 35 années à la recherche du métier passion.\n\nJ'ai eu plusieurs carrières dans ma vie, pâtissier, boulanger, surveillant dans un collège puis une formation de technicien informatique pour enfin trouver le domaine qui m'épanouit pleinement.\n\nJ’ai eu, lors de ma formation, une mentor qui m’a initié au Clean Code, au TDD et au Software Craftmanship en général. Je lui en suis grandement reconnaissant parce que je veux évoluer dans ce sens et écrire un code lisible et évolutif.`,
 }
 export const SKILLS = {
   TITLE: 'Mes Compétences principales',

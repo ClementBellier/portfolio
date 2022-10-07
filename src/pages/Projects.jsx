@@ -15,12 +15,10 @@ const Project = ({ project }) => {
       >
         {PROJECTS.CATEGORIES[project.CATEGORY]}
       </div>
-      <a href={project.LIVE_URL}>
-        <img
-          src={project.IMAGE_URL}
-          alt={`${PROJECTS.IMG_LINK_ALT_TXT}${project.TITLE}`}
-        />
-      </a>
+      <img
+        src={project.IMAGE_URL}
+        alt={`${PROJECTS.IMG_LINK_ALT_TXT}${project.TITLE}`}
+      />
       <div className="container">
         {project.LIVE_URL && (
           <a
@@ -98,8 +96,8 @@ function Projects() {
       <h2>{PROJECTS.TITLE}</h2>
       {PROJECTS.PROJECTS_TO_DISPLAY.map(project => (
         <Project project={PROJECTS[project]} key={`project-${project}`} />
-      ))}      
-      <div className='empty-for-scroll'></div>
+      ))}
+      <div className="empty-for-scroll"></div>
     </section>
   )
 }
