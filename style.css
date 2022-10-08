@@ -31,8 +31,8 @@ a{
     --forest4: #3D0321;
     --forest5: #2F0C29;
     --primary-color: #20003A;
-    --secondary-color: #3E7A57;
-    --tertiary-color: #AB5E00;
+    --secondary-color: var(--mountain3-shadow);
+    --tertiary-color: var(--mountain2-shadow);
     --card: rgba(255,255,255,.4);
     --shadow-card: rgba(255,255,255,.6);
     --links: #fffc;
@@ -55,6 +55,7 @@ body{
     background: linear-gradient(350deg, var(--sky-bottom) 0%, var(--sky-top) 100%);
     font-family: 'Rubik', Helvetica, sans-serif;
     color: var(--font-color);
+    overflow: hidden;
 }
 .content{
     position: absolute;
@@ -64,15 +65,16 @@ body{
     background-color: var(--card);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 6px;
     padding: 40px;
     box-shadow: 0 0 8px var(--shadow-card);
     top: 48%;
     left: 50%;
     /* transform: translate(-50%, -50%); */
     overflow-y: scroll;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    scrollbar-width: thin;  /* Firefox */
+    scrollbar-color: var(--shadow-card);
+    scrollbar-base-color: var(--card);
     scroll-snap-type: y mandatory;
     animation: content-appears 1.5s ease-in-out 1.5s both;
 }
@@ -81,13 +83,20 @@ body{
     to{transform: translate(-50%, -50%);}
 }
 .content::-webkit-scrollbar{
-    display: none;
+    width: 6px;
+}
+.content::-webkit-scrollbar-track{
+    background: transparent;
+}
+.content::-webkit-scrollbar-thumb{
+    background-color: var(--shadow-card);
+    border-radius: 6px;
 }
 h1{
     font-size: var(--font-size-h1);
     margin-block: .8em;
     color: var(--primary-color);
-    text-shadow: 3px 3px var(--tertiary-color);
+    /* text-shadow: 3px 3px var(--tertiary-color); */
 }
 h2{
     font-size: var(--font-size-h2);
