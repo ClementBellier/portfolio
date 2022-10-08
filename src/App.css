@@ -18,6 +18,9 @@ nav{
 @media (min-width: 760px){
   nav{width: clamp(300px, 80%, 1200px); padding-inline: 40px;}
 }
+@media (max-width: 500px){
+  nav{font-size: 12px;}
+}
 nav ul{
   list-style: none;
   display: flex;

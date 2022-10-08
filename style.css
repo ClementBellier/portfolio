@@ -56,9 +56,6 @@ body{
     font-family: 'Rubik', Helvetica, sans-serif;
     color: var(--font-color);
 }
-@media (max-width: 450px){
-    :root{font-size: 14px;}
-}
 .content{
     position: absolute;
     z-index: 1;
@@ -80,7 +77,7 @@ body{
     animation: content-appears 1.5s ease-in-out 1.5s both;
 }
 @keyframes content-appears {
-    from{transform: translate(-50%, 100vh);}
+    from{transform: translate(-50%, -200vh);}
     to{transform: translate(-50%, -50%);}
 }
 .content::-webkit-scrollbar{
