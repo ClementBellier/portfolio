@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="wrapper aboutMe">
         <div className="container">
           <img
-            src="/src/assets/Clément-BELLIER-400.jpg"
+            src="/assets/Clement-BELLIER-400.jpg"
             alt="Portrait de Clément BELLIER"
           />
           <p>{ABOUT_ME.ME}</p>

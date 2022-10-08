@@ -36,7 +36,8 @@ function Nav() {
   const [activeItem, setActiveItem] = useState('Top')
   const handleScroll = () => {
     const currentPosition = document.querySelector('main').scrollTop
-    let currentSection = null
+    //console.log(currentPosition)
+    let currentSection = 'HOME'
     for (const section of Object.keys(menuItems)) {
       currentSection =
         currentPosition >= menuItems[section] ? section : currentSection
@@ -49,15 +50,17 @@ function Nav() {
   const getAnchorPoints = () => {
     const currentScroll = document.querySelector('main').scrollTop - 140
     for (const key in menuItems) {
-      const position =
+      const position = parseInt(
         document.getElementById(ANCHORS[key]).getBoundingClientRect().top +
-        currentScroll
+          currentScroll
+      )
+      //console.log(key, position, document.getElementById(ANCHORS[key]).getBoundingClientRect().top + currentScroll)
       menuItems[key] = position > 0 ? position : 0
     }
     handleScroll()
   }
-
-  useEffect(() => {
+  //console.log(menuItems)
+  useEffect(() => {setTimeout(()=>{
     const observer = new MutationObserver(getAnchorPoints)
     observer.observe(document.querySelector('main'), {
       childList: true,
@@ -65,7 +68,7 @@ function Nav() {
     })
     document.querySelector('main').addEventListener('scroll', handleScroll)
     getAnchorPoints()
-  }, [])
+  },3000)}, [])
 
   const menuList = Object.keys(menuItems).map((e, i) => {
     return (
