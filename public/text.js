@@ -59,6 +59,14 @@ export const CONTACT = {
     ERROR_MESSAGE:"Oups, il semble qu'il y est eu une erreur.\nMerci de retenter un envoi ou de m'écrire via mes réseaux (liens au dessus).",
     SUCCESS_MESSAGE:"Le message m'a bien été envoyé. Je reviens vers vous au plus vite !",
   },
+  CREDITS: [
+    {TEXT: "Paysage: ",LINK_TEXT:"Vecteezy", URL: "https://www.vecteezy.com/vector-art/217363-vector-colourful-landscape-illustration"},
+    {TEXT: "Icones: ",LINK_TEXT:"Humbleicons", URL: "https://humbleicons.com/"},
+    {TEXT: "Logo: ",LINK_TEXT:"WeloveDevs", URL: "https://welovedevs.com/"},
+    {TEXT: "Logo: ",LINK_TEXT:"CodinGames", URL: "https://www.codingame.com/"},
+    {TEXT: "Logos: ",LINK_TEXT:"Svgrepo", URL: "https://www.svgrepo.com/"},
+    {TEXT: "Logos: ",LINK_TEXT:"Wikimedia", URL: "https://commons.wikimedia.org"},
+  ],
 }
 export const ABOUT_ME = {
   ME: `Je suis Clément, reconverti au développement web après 35 années à la recherche du métier passion.\n\nJ'ai eu plusieurs carrières dans ma vie, pâtissier, boulanger, surveillant dans un collège puis une formation de technicien informatique pour enfin trouver le domaine qui m'épanouit pleinement.\n\nJ’ai eu, lors de ma formation, une mentor qui m’a initié au Clean Code, au TDD et au Software Craftmanship en général. Je lui en suis grandement reconnaissant parce que je veux évoluer dans ce sens et écrire un code lisible et évolutif.`,

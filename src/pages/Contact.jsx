@@ -105,6 +105,21 @@ function Mail() {
     </div>
   )
 }
+function Credits() {
+  return (
+    <div className="wrapper" style={{width: '100%', marginTop:'50px', paddingBlock: "20px"}}>
+      <h3>Crédits</h3>
+      <div className="container">
+        {CONTACT.CREDITS.map(credit => (
+          <div style={{flex: 1}}>
+            {credit.TEXT}
+            <a href={credit.URL} style={{textDecoration:"underline"}}>{credit.LINK_TEXT}</a>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
 function Contact() {
   return (
     <section id={ANCHORS.CONTACT}>
@@ -115,6 +130,7 @@ function Contact() {
       </div>
       <h2>{CONTACT.MAIL_ME.TITLE}</h2>
       <Mail />
+      <Credits />
       <div className="empty-for-scroll"></div>
     </section>
   )
