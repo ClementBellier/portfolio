@@ -111,7 +111,7 @@ function Credits() {
       <h3>Crédits</h3>
       <div className="container">
         {CONTACT.CREDITS.map(credit => (
-          <div style={{flex: 1}}>
+          <div style={{flex: 1}} key={credit.LINK_TEXT}>
             {credit.TEXT}
             <a href={credit.URL} style={{textDecoration:"underline"}}>{credit.LINK_TEXT}</a>
           </div>

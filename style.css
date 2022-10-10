@@ -95,15 +95,19 @@ body{
 h1{
     font-size: var(--font-size-h1);
     margin-block: .8em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     /* text-shadow: 3px 3px var(--tertiary-color); */
+    background-color: var(--skills);
+    padding: 15px 80px;
+    border-radius: 10px;
 }
 h2{
     font-size: var(--font-size-h2);
     margin-block: .7em;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 h3{
+    color: var(--primary-color);
     font-size: var(--font-size-h3);
 }
 p{

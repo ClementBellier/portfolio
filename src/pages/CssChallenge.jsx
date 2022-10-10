@@ -4,6 +4,14 @@ import { DayCssChallenge } from '../components/DayCssChallenge'
 
 function CssChallenge() {
   const [showChallenge, setShowChallenge] = useState(false)
+  const handleClick = () => {
+    setShowChallenge(!showChallenge)
+    if (showChallenge) {
+      document
+        .querySelector(`#${ANCHORS.CSS_CHALLENGE}`)
+        .scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   return (
     <section id={ANCHORS.CSS_CHALLENGE}>
       <h2>{CSSCHALLENGE.TITLE}</h2>
@@ -24,7 +32,7 @@ function CssChallenge() {
       </a>
       <div className="all-days">
         <div className="button-container">
-          <button onClick={() => setShowChallenge(!showChallenge)}>
+          <button onClick={handleClick}>
             {showChallenge
               ? CSSCHALLENGE.HIDE_CHALLENGE
               : CSSCHALLENGE.SHOW_CHALLENGE}

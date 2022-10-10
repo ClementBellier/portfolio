@@ -20,10 +20,9 @@ export function DayCssChallenge({ day, index }) {
             className="pen"
             src={iframeSrc}
             scrolling="no"
-            allowfullscreen="true"
-            allowtransparency="true"
+            allowFullScreen={true}
             sandbox="allow-scripts allow-same-origin"
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
         )}
       </div>
