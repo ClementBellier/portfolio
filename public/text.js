@@ -129,13 +129,14 @@ export const PROJECTS = {
   ARIA_LABEL_LINK:"Vers le site ",
   PROJECTS_TO_DISPLAY: [
     'BAY',
-    'AERONOTES',
+    'GROUPOMANIA',
     'POKEDEX',
+    'POTTER',
+    'AERONOTES',
     'BOOKI',
     'OHMYFOOD',
     'KANAP',
     'PIIQUANTE',
-    'GROUPOMANIA',
   ],
   CATEGORIES: ['Professionel', 'Formation', 'Personnel'],
   SKILLS_NAMES: [
@@ -159,7 +160,16 @@ export const PROJECTS = {
     'Flexbox', //17
     'Git', //18
     'API', //19
+    'TDD', //20
   ],
+  POTTER: {
+    TITLE: "Potter Books Kata",
+    CODE_URL: "https://github.com/ClementBellier/kata-PotterBooksPrice",
+    SUBTITLE: 'Exercice de TDD sur le thème Harry Potter',
+    DESCRIPTION: "En fonction du nombre de livre pris, une réduction est appliquée.\nTrès bon exercice de TDD, ça m'a prouvé que c'est une pratique qui pour moi à du sens et que je veux faire au quotidien.\nJe vais faire un coté front pour m'exercer au TDD sur React.",
+    SKILLS: [0,20,15],
+    CATEGORY: 2,
+  },
   BAY: {
     TITLE: 'Bijoux Alex Yell',
     LIVE_URL: 'https://www.bijoux-alex-yell.fr',

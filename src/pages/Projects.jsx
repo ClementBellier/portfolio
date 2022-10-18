@@ -15,10 +15,10 @@ const Project = ({ project }) => {
       >
         {PROJECTS.CATEGORIES[project.CATEGORY]}
       </div>
-      <img
+      {project.IMAGE_URL && <img
         src={project.IMAGE_URL}
         alt={`${PROJECTS.IMG_LINK_ALT_TXT}${project.TITLE}`}
-      />
+      />}
       <div className="container">
         {project.LIVE_URL && (
           <a
@@ -72,7 +72,7 @@ const Project = ({ project }) => {
           </a>
         )}
       </div>
-      <p>
+      <p style={{textAlign: 'center'}}>
         <strong>{project.SUBTITLE}</strong>
       </p>
       <p>{project.DESCRIPTION}</p>
