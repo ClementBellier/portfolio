@@ -147,6 +147,7 @@ main{
 }
 .wrapper p{
   text-align: left;
+  width: 80%;
 }
 .container{
   display: flex;
