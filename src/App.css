@@ -167,6 +167,9 @@ main{
 .container div p {
   text-align: center;
 }
+#skills .container div p{
+  white-space: nowrap;
+}
 .container svg{
   width: 50px;
   height: 50px;
