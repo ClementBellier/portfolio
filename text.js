@@ -69,7 +69,7 @@ export const CONTACT = {
   ],
 }
 export const ABOUT_ME = {
-  ME: `Je suis Clément, reconverti au développement web après 35 années à la recherche du métier passion.\n\nJ'ai eu plusieurs carrières dans ma vie, pâtissier, boulanger, surveillant dans un collège puis une formation de technicien informatique pour enfin trouver le domaine qui m'épanouit pleinement.\n\nJ’ai eu, lors de ma formation, une mentor qui m’a initié au Clean Code, au TDD et au Software Craftmanship en général. Je lui en suis grandement reconnaissant parce que je veux évoluer dans ce sens et écrire un code lisible et évolutif.`,
+  ME: `Je suis Clément, reconverti au développement web après 35 années à la recherche du métier passion.\n\nJ'ai eu plusieurs carrières dans ma vie, pâtissier, boulanger, surveillant dans un collège puis j'ai fait une formation de technicien informatique qui m'a permis d'enfin trouver le domaine qui m'épanouit pleinement, le développement Web.\n\nJ'ai alors continué de me former avec Openclassrooms pour obtenir un diplôme de Développeur Web. J’ai eu, lors de cette formation, une mentor qui m’a initié au Clean Code, au TDD et au Software Craftmanship en général. Je lui en suis grandement reconnaissant parce que ça fait sens pour moi et je veux écrire un code lisible et évolutif.`,
 }
 export const SKILLS = {
   TITLE: 'Mes Compétences principales',
@@ -129,13 +129,14 @@ export const PROJECTS = {
   ARIA_LABEL_LINK:"Vers le site ",
   PROJECTS_TO_DISPLAY: [
     'BAY',
-    'AERONOTES',
+    'GROUPOMANIA',
     'POKEDEX',
+    'POTTER',
+    'AERONOTES',
     'BOOKI',
     'OHMYFOOD',
     'KANAP',
     'PIIQUANTE',
-    'GROUPOMANIA',
   ],
   CATEGORIES: ['Professionel', 'Formation', 'Personnel'],
   SKILLS_NAMES: [
@@ -159,7 +160,16 @@ export const PROJECTS = {
     'Flexbox', //17
     'Git', //18
     'API', //19
+    'TDD', //20
   ],
+  POTTER: {
+    TITLE: "Potter Books Kata",
+    CODE_URL: "https://github.com/ClementBellier/kata-PotterBooksPrice",
+    SUBTITLE: 'Exercice de TDD sur le thème Harry Potter',
+    DESCRIPTION: "En fonction du nombre de livre pris, une réduction est appliquée.\nTrès bon exercice de TDD, ça m'a prouvé que c'est une pratique qui pour moi à du sens et que je veux faire au quotidien.\nJe vais faire un coté front pour m'exercer au TDD sur React.",
+    SKILLS: [0,20,15],
+    CATEGORY: 2,
+  },
   BAY: {
     TITLE: 'Bijoux Alex Yell',
     LIVE_URL: 'https://www.bijoux-alex-yell.fr',
