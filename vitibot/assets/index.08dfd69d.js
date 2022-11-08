@@ -15856,7 +15856,7 @@ font-size: 0.875rem;
         C(Fg, { children: "Disponible d\xE8s maintenant" }),
         C(vr, {
           url: "https://www.clementbellier.fr/#contact",
-          children: "Contactez le cr\xE9ateur",
+          children: "Contacter le cr\xE9ateur",
         }),
         W(jg, {
           children: [
@@ -15934,7 +15934,7 @@ font-size: 0.875rem;
                     C(dr, { children: "Pourquoi ceci ?" }),
                     C(fr, {
                       children:
-                        "Cl\xE9ment BELLIER est un d\xE9veloppeur fullstack Javascript avec une app\xE9tence forte pour le frontend. Il croit en Vitibot et souhaite vraiment y travailler.",
+                        "Cl\xE9ment BELLIER est un d\xE9veloppeur fullstack Javascript avec une app\xE9tence forte pour le front-end. Il croit en Vitibot et souhaite vraiment y travailler.",
                     }),
                   ],
                 }),
@@ -15971,10 +15971,10 @@ font-size: 0.875rem;
                 W(kt, {
                   children: [
                     C("img", { src: "./assets/vitibot_11.png" }),
-                    C(dr, { children: "Ces motivations" }),
+                    C(dr, { children: "Ses motivations" }),
                     C(fr, {
                       children:
-                        "Par ces quelques heures pass\xE9es \xE0 r\xE9aliser le robot viticole et la page Web, Cl\xE9ment esp\xE8re avoir touch\xE9 au moins une personne chez Vitibot et d\xE9crocher un entretien pour le poste de D\xE9veloppeur Front-end Junior.",
+                        "Par ces quelques heures pass\xE9es \xE0 r\xE9aliser le robot viticole et la page web, Cl\xE9ment esp\xE8re avoir touch\xE9 au moins une personne chez Vitibot et d\xE9crocher un entretien pour le poste de D\xE9veloppeur Front-end Junior.",
                     }),
                   ],
                 }),
