@@ -33,15 +33,15 @@ export const CONTACT = {
       },
       { NAME: 'CodePen', URL: 'https://codepen.io/clementbellier', SVG:"#codepen-round" },
       { NAME: 'Twitter', URL: 'https://twitter.com/BremiumB', SVG: "#twitter" },
-      {
-        NAME: 'CodinGame',
-        URL: 'https://www.codingame.com/profile/a288606b19f268c63304658157491fb70395194',
-        SVG:"#codingames"
-      },
-      {
-        NAME: 'WeLoveDevs',
-        URL: 'https://welovedevs.com/app/fr/developer/clement-developpeur-frontend-junior-reactjs', SVG:"#welovedevs"
-      },
+      // {
+      //   NAME: 'CodinGame',
+      //   URL: 'https://www.codingame.com/profile/a288606b19f268c63304658157491fb70395194',
+      //   SVG:"#codingames"
+      // },
+      // {
+      //   NAME: 'WeLoveDevs',
+      //   URL: 'https://welovedevs.com/app/fr/developer/clement-developpeur-frontend-junior-reactjs', SVG:"#welovedevs"
+      // },
     ],
   },
   MY_RESUME: {
@@ -84,7 +84,9 @@ export const SKILLS = {
   HARD_SKILLS: {
     TITLE: 'Mes Hards Skills',
     SKILL: [
+      { NAME: 'NextJS', SVG: '#nextjs' },
       { NAME: 'NodeJS', SVG: '#nodejs' },
+      { NAME: 'Strapi', SVG: '#strapi' },
       { NAME: 'Express', SVG: '#express' },
       { NAME: 'Sequelize', SVG: '#sequelize' },
       { NAME: 'Joomla!', SVG: '#joomla' },
@@ -114,8 +116,8 @@ export const SKILLS = {
   LEARNING: {
     TITLE: "J'apprends en ce moment",
     SKILL: [
-      { NAME: 'Typescript', SVG: null },
-      { NAME: 'Strapi', SVG: null },
+      { NAME: 'Three.js', SVG: null },
+      { NAME: 'CI/CD', SVG: null },
       { NAME: 'Docker', SVG: null },
     ],
   }, 
@@ -128,6 +130,7 @@ export const PROJECTS = {
   IMG_LINK_ALT_TXT:"Aperçu de la première page du projet ",
   ARIA_LABEL_LINK:"Vers le site ",
   PROJECTS_TO_DISPLAY: [
+    'ADP',
     'BAY',
     'GROUPOMANIA',
     'POKEDEX',
@@ -161,7 +164,18 @@ export const PROJECTS = {
     'Git', //18
     'API', //19
     'TDD', //20
+    'Starpi', //21
+    'Nextjs' //22
   ],
+  ADP: {
+    TITLE: "Alliance de Paix",
+    LIVE_URL: "https://www.alliancedepaix.org",
+    IMAGE_URL: '/assets/alliance-de-paix.png',
+    SUBTITLE: "Site de l'église évangélique baptiste de Soissons",
+    DESCRIPTION: "Création de la charte graphique du site et des prints.\nCréation du front avec NextJs et le back est géré via starpi.\nConfiguration du serveur sécurisé\nCréation d'une partie réservé aux membres avec gestion d'audios, de pdf et d'un blog",
+    SKILLS: [7,22,21],
+    CATEGORY: 0,
+  },
   POTTER: {
     TITLE: "Potter Books Kata",
     CODE_URL: "https://github.com/ClementBellier/kata-PotterBooksPrice",
@@ -198,7 +212,7 @@ export const PROJECTS = {
     SUBTITLE: 'Pokédex pour mon fils de 3 ans qui ne sait pas lire',
     DESCRIPTION:
       "Affiche l'image et dit le nom du pokémon au clic\nAppel à la PokéAPI pour le nom et l'image du pokémon\nUtilisation de l'API Web Speech pour entendre le nom lors du clic",
-    SKILLS: [0, 1, 2, 15, 19],
+    SKILLS: [7, 2, 19],
     CATEGORY: 2,
   },
   BOOKI: {
